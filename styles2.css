@@ -198,6 +198,26 @@ body {
   .menu-overlay-header-row {
     padding: 20px 16px! important;
   }
+  .static-header{
+    height: 250px!important;
+  }
+  .logo-area{
+    height: 200px!important;
+    margin-top: 40px!important;
+  }
+
+
+  .logo-img {
+    height: 200px!important;
+  }
+
+  .menu-drop {
+    height: 200px!important;
+    width: 150px!important;
+    border-bottom-left-radius: 100px!important;
+    border-bottom-right-radius: 100px!important;
+  }
+
 }
 
 /* ...tu CSS existente... */
@@ -477,27 +497,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    
  
-  .static-header{
-    height: 250px!important;
-  }
-  .logo-area{
-    height: 200px!important;
-    margin-top: 40px!important;
-  }
-
-
-  .logo-img {
-    height: 200px!important;
-  }
-
-  .menu-drop {
-    height: 200px!important;
-    width: 150px!important;
-    border-bottom-left-radius: 100px!important;
-    border-bottom-right-radius: 100px!important;
-  }
-
+  
   .menu-label {
     font-size: 3em;
     margin-bottom: 4px;
