@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Estática con Cenefa</title>
+  <link rel="stylesheet" href="styles2.css">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+    <header class="static-header">
+      <div class="logo-area">
+        <a href="index.html">
+            <img src="logo frida kahlo horizontal.png" alt="Logo" class="logo-img">
+        </a>
+      </div>
+      <div class="menu-drop">
+        <span class="menu-label">Menú</span>
+        <button class="menu-btn" id="menuToggle" aria-label="Abrir menú">
+          <span class="menu-icon" id="menuIcon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </div>
+    </header>
+    <div class="container">
+        <main class="center-content">
+            <div class="images-row">
+                <img src="buho.png" alt="Imagen 1" class="center-img buho-animado">
+                <img src="textoinicial.png" alt="Imagen 2" class="center-img">
+            </div>
+         </main>
+         <!-- Shapes comentados -->
+         <!--
+         <img src="cloud1.png" alt="Shape 1" class="shape shape1">
+         <img src="cloud1.png" alt="Shape 2" class="shape shape2">
+         <img src="cloud1.png" alt="Shape 3" class="shape shape3">
+         <img src="cloud1.png" alt="Shape 4" class="shape shape4">
+         <img src="cloud1.png" alt="Shape 5" class="shape shape5">
+         -->
+    </div>
+    <div class="menu-overlay" id="menuOverlay">
+      <div class="menu-overlay-header-row">
+        <div class="menu-overlay-header">
+           <a href="index.html">
+                <img src="logo frida kahlo blanco horizontal.png" alt="Logo" class="logo-img-overlay">
+            </a>
+        </div>
+        <div class="menu-close-row">
+          <span class="menu-close-label">Menú</span>
+          <button class="close-btn" id="closeMenu" aria-label="Cerrar menú">
+            <span class="close-icon">
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="menu-section yellow">
+        <a href="quienes-somos.html" class="menu-link">
+          <img src="pajaro.png" alt="Icono quienes somos" class="menu-section-img">
+          <span class="menu-section-word">Quienes somos</span>
+        </a>
+      </div>
+      <div class="menu-section red">
+        <a href="servicios.html" class="menu-link">
+          <img src="arbol.png" alt="Icono servicios" class="menu-section-img">
+          <span class="menu-section-word">Servicios</span>
+        </a>
+      </div>
+      <div class="menu-section yellow">
+        <a href="escuelas.html" class="menu-link">
+          <img src="escuela.png" alt="Icono escuelas" class="menu-section-img">
+          <span class="menu-section-word">Escuelas</span>
+        </a>
+      </div>
+      <div class="menu-section red">
+        <a href="contacto.html" class="menu-link">
+          <img src="libro.png" alt="Icono contacto" class="menu-section-img">
+          <span class="menu-section-word">Contacto</span>
+        </a>
+      </div>
+    </div>
+    <footer class="cenefa-footer">
+      <img src="cenefa2.png" alt="Cenefa" class="cenefa-img">
+    </footer>
+    <script>
+      const menuToggle = document.getElementById('menuToggle');
+      const menuOverlay = document.getElementById('menuOverlay');
+      const closeMenu = document.getElementById('closeMenu');
+      const menuIcon = document.getElementById('menuIcon');
+
+      function openMenu() {
+        menuOverlay.classList.add('active');
+        menuIcon.classList.add('hide');
+      }
+
+      function closeMenuFunc() {
+        menuOverlay.classList.remove('active');
+        menuIcon.classList.remove('hide');
+      }
+
+      menuToggle.addEventListener('click', openMenu);
+      closeMenu.addEventListener('click', closeMenuFunc);
+    </script>
+</body>
+</html>
