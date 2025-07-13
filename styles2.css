@@ -241,6 +241,30 @@ body.menu-open {
     display: none !important; /* Oculta la imagen si no se ve bien */
   }
 
+  .cenefa-footer {
+    height: 60px;
+    min-height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    padding-bottom: env(safe-area-inset-bottom); /* Espacio extra para barras nativas */
+    box-sizing: border-box;
+    z-index: 100;
+    background: linear-gradient(
+      to bottom,
+      #ff9e35 0%,
+      #fbbe5e 50%,
+      #d88c1a 100%
+    );
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-row {
+    padding-bottom: env(safe-area-inset-bottom); /* También para el contenido */
+  }
   
 }
 
