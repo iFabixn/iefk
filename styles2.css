@@ -220,7 +220,46 @@ body {
     font-size: 1.2em;
     margin-bottom: 5px;
   }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  body {
+    overflow: auto;
+  }
+  .center-content{
+    flex: 0.5;
+  }
+  .cenefa-img {
+    display: none !important; /* Oculta la imagen si no se ve bien */
+  }
 
+  .cenefa-footer {
+    height: 60px;
+    min-height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    padding-bottom: env(safe-area-inset-bottom); /* Espacio extra para barras nativas */
+    box-sizing: border-box;
+    z-index: 100;
+    background: linear-gradient(
+      to bottom,
+      #ff9e35 0%,
+      #fbbe5e 50%,
+      #d88c1a 100%
+    );
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-row {
+    padding-bottom: env(safe-area-inset-bottom); /* También para el contenido */
+  }
 }
 
 /* ...tu CSS existente... */
@@ -397,6 +436,11 @@ body {
 @media (max-width: 1700px) {
   .menu-overlay {
     flex-direction: column;
+    padding-bottom: env(safe-area-inset-bottom);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: env(safe-area-inset-bottom);
+    height: 100vh;
   }
   .menu-section {
     font-size: 1.5em;
@@ -508,4 +552,33 @@ body {
 
 .menu-btn:hover #menuIcon {
   transform: scale(1.15);
+}
+
+/* Botón "Conócenos" */
+.conocenos-btn-row {
+  display: flex;
+  justify-content: center;
+}
+
+.conocenos-btn {
+  display: inline-block;
+  padding: 16px 48px;
+  background: #ff9e35;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+  border: none;
+  border-radius: 32px;
+  text-decoration: none;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  transition: background 0.25s, transform 0.25s, box-shadow 0.25s;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.conocenos-btn:hover {
+  background: #fbbe5e;
+  color: #fff;
+  transform: scale(1.08);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
 }
