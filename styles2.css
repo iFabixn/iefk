@@ -244,17 +244,11 @@ body.menu-open {
   .cenefa-footer {
     position: relative;
     width: 100vw;
-    height: 150px;
     min-height: 60px;
     padding-bottom: env(safe-area-inset-bottom);
     box-sizing: border-box;
     z-index: 100;
-    background: linear-gradient(
-      to bottom,
-      #ff9e35 0%,
-      #fbbe5e 50%,
-      #d88c1a 100%
-    );
+    background: #ff9e35;
     border-radius: 0;
     display: flex;
     align-items: center;
@@ -289,7 +283,6 @@ body.menu-open {
     transition: color 0.2s, transform 0.2s;
   }
   .social-icon:hover i {
-    color: #d88c1a;
     transform: scale(1.2);
   }
 }
