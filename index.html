@@ -5,7 +5,7 @@
   <title>Instituto Educativo Frida Kahlo</title>
   <link rel="stylesheet" href="styles2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="icon" type="image/png" href="logo frida kahlo horizontal.png">
+  <link rel="icon" type="image/png" href="logo sin letras.png">
 
   <style>
     html, body {
@@ -93,7 +93,33 @@
       </div>
     </div>
     <footer class="cenefa-footer">
-      <img src="cenefa2.png" alt="Cenefa" class="cenefa-img">
+      <div class="footer-row">
+        <div>
+          <span id="correo" class="copy-text" onclick="copyToClipboard('correo')">Correo: direccioniefk@gmail.com</span>
+        </div>
+        <div>
+          <span id="celular" class="copy-text" onclick="copyToClipboard('celular')">Celular: 3316906553</span>
+        </div>
+        <div>
+          <div class="footer-social">
+          <a href="https://www.tiktok.com/" target="_blank" class="social-icon" aria-label="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="social-icon" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank" class="social-icon" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+        &copy; 2025 Todos los derechos reservados &reg;<br>
+          Elaborado por: 
+          <a href="https://wa.me/523327011050?text=He%20visto%20tu%20pagina%20me%20interesaria%20hablar%20contigo." target="_blank">
+            Fabian Vazquez
+          </a>
+        </div>
+        
+      </div>
     </footer>
     <script>
       const menuToggle = document.getElementById('menuToggle');
@@ -115,6 +141,16 @@
 
       menuToggle.addEventListener('click', openMenu);
       closeMenu.addEventListener('click', closeMenuFunc);
+
+      function copyToClipboard(id) {
+        const el = document.getElementById(id);
+        // Extrae solo el texto después de ": "
+        const text = el.textContent.split(': ')[1];
+        navigator.clipboard.writeText(text).then(() => {
+          el.style.background = "#ffe9b3";
+          setTimeout(() => { el.style.background = ""; }, 800);
+        });
+      }
     </script>
 </body>
 </html>
