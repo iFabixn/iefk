@@ -123,13 +123,14 @@ body {
 }
 
 .cenefa-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
   width: 100%;
-  height: 50%;
+  height: 100px;
   object-fit: cover;
-  display: block;
-  opacity: 0;
-  animation: fadeInUp 0.8s ease forwards;
-  animation-delay: 1.2s;
+  z-index: 2;
+  pointer-events: none;
 }
 
 
