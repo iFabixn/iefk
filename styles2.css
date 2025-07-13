@@ -16,7 +16,6 @@ body {
 
 /* Mantén solo esto para cuando el menú esté abierto */
 body.menu-open {
-  overflow: hidden !important;
   height: 100vh !important;
 }
 .container {
@@ -278,7 +277,6 @@ body.menu-open {
   transition: transform 0.45s cubic-bezier(.23,1,.32,1), box-shadow 0.45s cubic-bezier(.23,1,.32,1);
   will-change: transform;
   backface-visibility: hidden;
-  overflow: hidden;
   flex-direction: column;
 }
 
