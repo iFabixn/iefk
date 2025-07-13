@@ -1,15 +1,25 @@
 /* Google Fonts: ejemplo Roboto y Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
-/* Aplica la fuente a todo el sitio */
 body {
   font-family: 'Source Sans 3', sans-serif;
   background: #F0F0F0;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
   margin: 0;
   padding: 0;
+}
+@media (min-width: 601px) {
+  body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    overflow: visible;
+    height: auto;
+    width: 100vw;
+  }
 }
 .container {
   max-width: 1024px;
@@ -226,9 +236,7 @@ body {
     flex-direction: column;
     margin-bottom: 5rem;
   }
-  body {
-    overflow: auto;
-  }
+ 
   .center-content{
     flex: 0.5;
   }
