@@ -7,19 +7,17 @@ body {
   margin: 0;
   padding: 0;
 }
-@media (min-width: 601px) {
-  body {
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
-}
+
 @media (max-width: 600px) {
   body {
-    overflow: visible;
-    height: auto;
     width: 100vw;
   }
+}
+
+/* Mantén solo esto para cuando el menú esté abierto */
+body.menu-open {
+  overflow: hidden !important;
+  height: 100vh !important;
 }
 .container {
   max-width: 1024px;

@@ -105,11 +105,13 @@
       function openMenu() {
         menuOverlay.classList.add('active');
         menuIcon.classList.add('hide');
+        document.body.classList.add('menu-open');
       }
 
       function closeMenuFunc() {
         menuOverlay.classList.remove('active');
         menuIcon.classList.remove('hide');
+        document.body.classList.remove('menu-open');
       }
 
       menuToggle.addEventListener('click', openMenu);
