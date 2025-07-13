@@ -199,23 +199,26 @@ body {
     padding: 20px 16px! important;
   }
   .static-header{
-    height: 250px!important;
+    height: 150px;
+    padding: 0 30px;
   }
   .logo-area{
-    height: 200px!important;
-    margin-top: 40px!important;
+    height: 100px;
+    margin-top: 40px;
   }
-
-
   .logo-img {
-    height: 200px!important;
+    height: 80px;
   }
 
   .menu-drop {
-    height: 200px!important;
-    width: 150px!important;
-    border-bottom-left-radius: 100px!important;
-    border-bottom-right-radius: 100px!important;
+    height: 100px;
+    width: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .mnenu-label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
   }
 
 }
@@ -496,17 +499,13 @@ body {
   transform: scale(1.15);
 }
 
-@media (max-width: 768px) {
-    
- 
-  
-  .menu-label {
-    font-size: 3em;
-    margin-bottom: 4px;
-  }
 
-  .center-img {
-    max-width: 100%;
-    max-height: 300px;
-  }
+/* Ajusta el tamaño y efecto del icono del menú */
+#menuIcon {
+  transition: transform 0.2s cubic-bezier(.23,1,.32,1);
+  color: white;
+}
+
+.menu-btn:hover #menuIcon {
+  transform: scale(1.15);
 }
