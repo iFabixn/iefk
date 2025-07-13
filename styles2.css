@@ -242,12 +242,12 @@ body.menu-open {
   }
 
   .cenefa-footer {
+    position: relative; /* O usa static si prefieres */
+    left: auto;
+    bottom: auto;
+    width: 100vw;
     height: 60px;
     min-height: 60px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
     padding-bottom: env(safe-area-inset-bottom); /* Espacio extra para barras nativas */
     box-sizing: border-box;
     z-index: 100;
