@@ -2,17 +2,17 @@
 const menuToggle = document.getElementById('menuToggle');
 const menuOverlay = document.getElementById('menuOverlay');
 const closeMenu = document.getElementById('closeMenu');
-const menuIcon = document.getElementById('menuIcon');
+const menuBackground = document.getElementById('menuBackground');
 
 function openMenu() {
   menuOverlay.classList.add('active');
-  menuIcon.classList.add('hide');
+  menuBackground.classList.add('active');
   document.body.classList.add('menu-open');
 }
 
 function closeMenuFunc() {
   menuOverlay.classList.remove('active');
-  menuIcon.classList.remove('hide');
+  menuBackground.classList.remove('active');
   document.body.classList.remove('menu-open');
 }
 
@@ -20,6 +20,7 @@ if (menuToggle && closeMenu) {
   menuToggle.addEventListener('click', openMenu);
   closeMenu.addEventListener('click', closeMenuFunc);
 }
+
 
 // Copiar al portapapeles
 function copyToClipboard(id) {

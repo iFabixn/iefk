@@ -1,3 +1,4 @@
+<div class="menu-background" id="menuBackground"></div>
 <div class="menu-overlay" id="menuOverlay">
   <div class="menu-overlay-header-row">
     <div class="menu-overlay-header">
