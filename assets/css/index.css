@@ -676,3 +676,22 @@ a.footer__link:hover{
   color: #fff; /* Cambia el color al pasar el mouse */
   transform: scale(1.15) translateY(-4px); /* Sube un poco hacia arriba */
 }
+
+.cenefa-divider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -10px; /* Ajusta según el diseño */
+  position: relative;
+  z-index: 2;
+  padding: 0 30px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.cenefa-img-divider {
+  width: 100%;
+  max-width: 100vw;
+  height: auto;
+  display: block;
+}

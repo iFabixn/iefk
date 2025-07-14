@@ -11,7 +11,7 @@
   <body>
     <?php include 'components/header.php'; ?>
 
-    <div class="container section__border">
+    <div class="container">
         <main class="center-content">
             <div class="images-row">
                 <img src="assets/img/buho.png" alt="Imagen 1" class="center-img buho-animado">
@@ -30,7 +30,9 @@
          <img src="cloud1.png" alt="Shape 5" class="shape shape5">
          -->
     </div>
-
+    <div class="cenefa-divider">
+      <img src="assets/img/cenefarombos.png" alt="Cenefa divisoria" class="cenefa-img-divider">
+    </div>
     <?php include 'components/footer.php'; ?>
     <?php include 'components/menu.php'; ?>
     <script src="assets/js/main.js"></script>
