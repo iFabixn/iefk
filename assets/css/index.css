@@ -648,13 +648,13 @@ img {
 .footer__copy{
     text-align: center;
     font-size: var(--smaller-font-size);
-    color: var(--text-color);
+    color: var(--title-color);
 }
 a.footer__link:hover{
     text-decoration: underline;
 }
 .fabixpage{
-    color: var(--title-color);
+    color: var(--text-color);
 }
 .fabixpage:hover{
     color: #fff;
