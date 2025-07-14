@@ -199,7 +199,7 @@ img {
   position: fixed;
   top: 0; left: 0;
   width: 100vw;
-  height: 50vh;
+  height: 65vh;
   display: flex;
   flex-direction: row;
   z-index: 999;
@@ -248,6 +248,21 @@ img {
 }
 .menu-section:hover .menu-section-img {
   filter: drop-shadow(0 18px 12px rgba(0,0,0,0.25));
+}.menu-background {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.55);
+  z-index: 998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.menu-background.active {
+  opacity: 1;
+  pointer-events: auto;
 }
 .menu-section-word {
   position: relative;
@@ -505,7 +520,6 @@ img {
   .menu-overlay {
     flex-direction: column;
     padding-bottom: env(safe-area-inset-bottom);
-    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
   .menu-section {
