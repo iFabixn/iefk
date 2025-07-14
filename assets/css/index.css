@@ -542,7 +542,7 @@ img {
 @media (max-width: 800px) {
   .menu-section {
     font-size: 1em;
-    
+    padding: 7px 0;
   }
   .menu-section-img {
     height: 80px;
