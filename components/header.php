@@ -1,7 +1,7 @@
 <header class="static-header">
   <div class="logo-area">
     <a href="index.html">
-      <img src="assets/img/logo frida kahlo horizontal.png" alt="Logo" class="logo-img">
+      <img src="<?php echo isset($customLogo) ? $customLogo : 'assets/img/logo frida kahlo horizontal.png'; ?>" alt="Logo" class="logo-img">
     </a>
   </div>
   <div class="menu-drop">

@@ -28,7 +28,7 @@
   <div class="menu-section yellow">
     <a href="escuelas.php" class="menu-link">
       <img src="assets/img/escuela.png" alt="Icono escuelas" class="menu-section-img">
-      <span class="menu-section-word">Escuelas</span>
+      <span class="menu-section-word">Planteles</span>
     </a>
   </div>
   <div class="menu-section red">

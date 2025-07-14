@@ -19,7 +19,7 @@
             </div>
          </main>
          <div class="conocenos-btn-row">
-            <a href="servicios.html" class="conocenos-btn">Conócenos</a>
+            <a href="servicios.php" class="conocenos-btn">Conócenos</a>
          </div>
          <!-- Shapes comentados -->
          <!--
