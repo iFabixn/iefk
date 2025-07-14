@@ -7,9 +7,8 @@
                 <img src="assets/img/logo frida kahlo horizontal.png" alt="logo image">
             </a>
             <p class="footer__description">
-                Tenemos envíos en toda la <br>
-                República Mexicana sin costo <br>
-                extra.<br>
+                Nos respaldan más de <br>
+                10 años de trabajo. <br>
             </p>
         </div>
         <!-- Links principales -->
