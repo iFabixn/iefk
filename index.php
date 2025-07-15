@@ -11,7 +11,7 @@
   <body>
     <?php include 'components/header.php'; ?>
 
-    <div class="container">
+    <div class="container body-container">
         <main class="center-content">
             <div class="images-row">
                 <img src="assets/img/buho.png" alt="Imagen 1" class="center-img buho-animado">
@@ -21,17 +21,12 @@
          <div class="conocenos-btn-row">
             <a href="servicios.php" class="conocenos-btn">Conócenos</a>
          </div>
-         <!-- Shapes comentados -->
-         <!--
-         <img src="cloud1.png" alt="Shape 1" class="shape shape1">
-         <img src="cloud1.png" alt="Shape 2" class="shape shape2">
-         <img src="cloud1.png" alt="Shape 3" class="shape shape3">
-         <img src="cloud1.png" alt="Shape 4" class="shape shape4">
-         <img src="cloud1.png" alt="Shape 5" class="shape shape5">
-         -->
     </div>
     <div class="cenefa-divider">
       <img src="assets/img/cenefarombos.png" alt="Cenefa divisoria" class="cenefa-img-divider">
+    </div>
+    <div class="cenefa-divider">
+      <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider2">
     </div>
     <?php include 'components/footer.php'; ?>
     <?php include 'components/menu.php'; ?>

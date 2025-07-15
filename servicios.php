@@ -77,13 +77,19 @@ $customLogo = "assets/img/logo frida kahlo blanco horizontal.png";
                 <!-- Información de la noticia -->
                 <div class="noticias-info fade-in-up" style="animation-delay:1.3s">
                     <h3 class="noticia-titulo">Noticia Lorem Ipsum</h3>
-                    <img src="assets/img/cenefarombos.png" alt="Cenefa noticia" class="cenefa-noticia-img">
+                    <img src="assets/img/cenefarombosmobile.png" alt="Cenefa noticia" class="cenefa-noticia-img">
                     <div class="noticia-texto">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur, nisl nisi consectetur nisi, euismod euismod nisi nisi euismod.
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="cenefa-divider">
+      <img src="assets/img/cenefarombos.png" alt="Cenefa divisoria" class="cenefa-img-divider">
+    </div>
+    <div class="cenefa-divider">
+      <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider2">
     </div>
 <!-- ============== FOOTER ============== -->
     <?php include 'components/footer.php'; ?>

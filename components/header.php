@@ -1,6 +1,6 @@
-<header class="static-header">
+<header class="static-header header-container">
   <div class="logo-area">
-    <a href="index.html">
+    <a href="index.php">
       <img src="<?php echo isset($customLogo) ? $customLogo : 'assets/img/logo frida kahlo horizontal.png'; ?>" alt="Logo" class="logo-img">
     </a>
   </div>

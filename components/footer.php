@@ -1,5 +1,5 @@
 <!--==================== FOOTER ====================-->
-<footer class="footer">
+<footer class="footer footer-container">
     <div class="footer__container grid">
         <!-- Logo y descripción -->
         <div>
@@ -14,7 +14,7 @@
         <!-- Links principales -->
         <div class="footer__content">
             <div>
-                <br>
+               
                 <h3 class="footer__title">Home</h3>
                 <ul class="footer__links">
                     <li><a href="index.php" class="footer__link">Inicio</a></li>
@@ -24,7 +24,7 @@
                 </ul>
             </div>
             <div>
-                <br>
+                
                 <h3 class="footer__title">Información</h3>
                 <ul class="footer__links">
                     <li><a href="index.html#contact" class="footer__link">WhatsApp</a></li>
@@ -32,7 +32,9 @@
                     <li><a href="#" class="footer__link">Alianzas</a></li>
                 </ul>
             </div>
+            
             <div>
+                
                 <h3 class="footer__title">Redes Sociales</h3>
                 <div class="footer__social">
                     <a href="https://www.tiktok.com/" target="_blank" class="social-icon" aria-label="TikTok">

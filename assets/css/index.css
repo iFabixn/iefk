@@ -91,6 +91,7 @@ img {
   margin-right: auto;
   min-height: 80vh;
   display: flex;
+  flex-direction: column;
 }
 
 /* ===================== HEADER ===================== */
@@ -101,7 +102,7 @@ img {
   position: relative;
   width: 100%;
   padding: 0 55px;
-  height: 100px;
+  height: 130px;
   box-sizing: border-box;
   opacity: 0;
   animation: fadeInUp 0.8s ease forwards;
@@ -111,7 +112,7 @@ img {
   display: flex;
   align-items: flex-start;
   height: 100px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .logo-img {
   height: 100px;
@@ -123,11 +124,11 @@ img {
   align-items: center;
   justify-content: center;
   background: #ff9e35;
-  border-bottom-left-radius: 48px;
-  border-bottom-right-radius: 48px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   padding: 16px 20px 32px 20px;
-  height: 100px;
-  min-width: 70px;
+  height: 140px;
+  min-width: 100px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
   position: relative;
 }
@@ -182,18 +183,6 @@ img {
   height: auto;
 }
 
-/* ===================== SHAPES ===================== */
-.shape1 { top: 400px; left: 235px; transform: scaleX(-1); position: absolute;
-  z-index: 10; width: 75px; height: 55px; pointer-events: none; opacity: 1;}
-.shape2 { top: 33vh; right: 39vh; position: absolute;
-  z-index: 10; width: 75px; height: 55px; pointer-events: none; opacity: 1;}
-.shape3 { bottom: 27vh; left: 30vh; position: absolute;
-  z-index: 10; width: 150px; height: 110px; pointer-events: none; opacity: 1;}
-.shape4 { bottom: 17vh; right: 56vh; position: absolute ;
-  z-index: 10; width: 150px; height: 110px; pointer-events: none; opacity: 1;}
-.shape5 { bottom: 24vh; right: 50vh;transform: scaleX(-1); position: absolute;
-  z-index: 10; width: 75px; height: 55px; pointer-events: none; opacity: 1;}
-
 /* ===================== MENU OVERLAY ===================== */
 .menu-overlay {
   position: fixed;
@@ -236,6 +225,7 @@ img {
 }
 .menu-section.red {
   background: #fbbe5e;
+  color: #fff;
 }
 .menu-section-img {
   display: block;
@@ -474,7 +464,8 @@ img {
   }
   .static-header {
     height: 150px;
-    padding: 0 30px;
+    padding: 0 30px!important;
+    margin-bottom: 5rem;
   }
   .logo-area {
     height: 100px;
@@ -512,6 +503,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+   .cenefa-img-divider,
+  .cenefa-divider .cenefa-img-divider {
+    display: none !important;
+  }
+  /* Opcional: oculta el contenedor si solo tiene esa imagen */
+  .cenefa-divider:has(.cenefa-img-divider) {
+    display: none !important;
   }
 }
 
@@ -567,7 +566,7 @@ img {
 
 .footer{
     position: relative;
-    margin: 2.5rem 2rem 7rem 2rem;
+    margin: 2rem 2rem 7rem 2rem;
     overflow: hidden;
 }
 .footer__container{
@@ -607,6 +606,7 @@ img {
 .footer__title{
     font-size: var(--h3-font-size);
     margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 .footer__links{
     row-gap: .5rem;
@@ -740,4 +740,467 @@ a.footer__link:hover{
 .menu-background.active {
   opacity: 1;
   pointer-events: auto;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .footer__container {
+    position: relative;
+    grid-template-columns: repeat(2, max-content);
+   justify-content: space-between;
+   row-gap: 3rem ;
+   margin-inline: auto;
+   max-width: 1024px;
+  }
+  .grid{
+    display: grid;
+    gap: 1.5rem;
+  }
+  .container{
+    margin-inline: auto;
+    max-width: 1024px;
+  }
+  .footer__content{
+    column-gap: 4rem;
+    grid-template-columns: repeat(3, max-content) !important;
+    gap: 2.5rem;
+    display: grid;
+  }
+  .footer__title, .footer__link, .footer__information, .footer__description {
+    font-size: var(--normal-font-size);
+  }
+  .footer{
+    
+    position: relative;
+  }
+  .footer__onion{
+    top: 30.5rem;
+    right: 11rem;
+    
+}
+.footer__spinach{
+    bottom: 15rem;
+    left: 12rem;
+    width: 75px;
+    transform: scaleX(-1);
+}
+.footer__leaf{
+    width: 100px;
+    position: absolute;
+    bottom: 34rem;
+    right: 2rem;
+}
+.footer__title{
+  margin-top: 0rem;
+}
+.cenefa-img-divider2,
+  .cenefa-divider .cenefa-img-divider2 {
+    display: none !important;
+  }
+  /* Opcional: oculta el contenedor si solo tiene esa imagen */
+  .cenefa-divider:has(.cenefa-img-divider2) {
+    display: none !important;
+  }
+  .menu-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s, transform 0.4s;
+  transform: translateY(-100%);
+}
+
+.menu-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.menu-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;.menu-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s, transform 0.4s;
+  transform: translateY(-100%);
+}
+
+.menu-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.menu-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  transition: transform 0.45s cubic-bezier(.23,1,.32,1), box-shadow 0.45s cubic-bezier(.23,1,.32,1);
+  will-change: transform;
+  backface-visibility: hidden;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.menu-section:hover {
+  transform: scale(1.06);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+  z-index: 2;
+}
+
+.menu-section.yellow {
+  background: #fb5c76;
+  color: #fff;
+}
+
+.menu-section.red {
+  background: #ff9ca7;
+}
+
+
+
+.menu-section:hover .menu-section-img {
+  filter: drop-shadow(0 18px 12px rgba(0,0,0,0.25));
+}
+
+.menu-section-word {
+  position: relative;
+  display: inline-block;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.menu-section-word::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: scaleX(0);
+}
+
+.menu-section:hover .menu-section-word::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.menu-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-img-overlay {
+  height: 100px;
+  width: auto;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-icon span {
+  position: absolute;
+  width: 32px;
+  height: 4px;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.close-icon span:first-child {
+  transform: rotate(45deg);
+}
+
+.close-icon span:last-child {
+  transform: rotate(-45deg);
+}
+
+.menu-close-label {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.menu-icon.hide {
+  display: none;
+}
+
+.menu-overlay-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 40px 84px;
+  z-index: 1001;
+  box-sizing: border-box;
+  pointer-events: none; /* <-- Esto permite que los clics pasen a las opciones debajo */
+}
+
+.menu-close-row,
+.menu-overlay-header {
+  pointer-events: auto; /* <-- Esto permite que los botones dentro del header sí sean clickeables */
+}
+  transition: transform 0.45s cubic-bezier(.23,1,.32,1), box-shadow 0.45s cubic-bezier(.23,1,.32,1);
+  will-change: transform;
+  backface-visibility: hidden;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.menu-section:hover {
+  transform: scale(1.06);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+  z-index: 2;
+}
+
+.menu-section.yellow {
+  background:var(--text-color);
+  color: #fff;
+}
+
+.menu-section.red {
+  background: var(--text-color-light);
+}
+
+.menu-section-img {
+  display: block;
+  margin-bottom: 18px;
+  height: 190px;
+  width: auto;
+  border-radius: 18px;
+  transition: filter 0.3s;
+  cursor: pointer;
+}
+
+.menu-section:hover .menu-section-img {
+  filter: drop-shadow(0 18px 12px rgba(0,0,0,0.25));
+}
+
+.menu-section-word {
+  position: relative;
+  display: inline-block;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.menu-section-word::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: scaleX(0);
+}
+
+.menu-section:hover .menu-section-word::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.menu-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-img-overlay {
+  height: 100px;
+  width: auto;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-icon span {
+  position: absolute;
+  width: 32px;
+  height: 4px;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.close-icon span:first-child {
+  transform: rotate(45deg);
+}
+
+.close-icon span:last-child {
+  transform: rotate(-45deg);
+}
+
+.menu-close-label {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.menu-icon.hide {
+  display: none;
+}
+
+.menu-overlay-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 40px 84px;
+  z-index: 1001;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: none; /* <-- Esto permite que los clics pasen a las opciones debajo */
+}
+
+.menu-close-row,
+.menu-overlay-header {
+  pointer-events: auto; /* <-- Esto permite que los botones dentro del header sí sean clickeables */
+}
+}
+
+@media screen and (max-width: 1023px) {
+  
+  .cenefa-img-divider,
+  .cenefa-divider .cenefa-img-divider {
+    display: none !important;
+  }
+  /* Opcional: oculta el contenedor si solo tiene esa imagen */
+  .cenefa-divider:has(.cenefa-img-divider) {
+    display: none !important;
+  }
+  .container{
+    min-height: 70vw;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1123px) {
+     .footer__container {
+        position: relative;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: space-between;
+        row-gap: 3rem;
+        margin-inline: auto;
+        max-width: 1024px;
+    }
+        .grid {
+        display: grid;
+        gap: 1.5rem;
+    }
+    .footer__content {
+    grid-template-columns: repeat(3, max-content);
+    gap: 2.5rem;
+}
+.footer {
+    position: relative;
+    margin: 2rem 5rem 7rem 5rem;
+    overflow: hidden;
+}
+}
+
+@media screen and (min-width: 601px) and (max-width: 699px) {
+     .footer__container {
+        position: relative;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: space-between;
+        row-gap: 3rem;
+        margin-inline: auto;
+        max-width: 1024px;
+    }
+        .grid {
+        display: grid;
+        gap: 1.5rem;
+    }
+    .footer__content {
+    grid-template-columns: repeat(3, max-content);
+    gap: 2.5rem;
+}
+.footer {
+    position: relative;
+    margin: 2rem 2rem 7rem 2rem;
+    overflow: hidden;
+}
+}
+
+@media (max-width: 1200px) {
+    .menu-section-img {
+        height: 120px!important;
+        max-width: 95vw!important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .menu-section {
+        font-size: 1.1em;
+    }
 }
