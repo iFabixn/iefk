@@ -14,7 +14,7 @@
     </div>
   </div>
   <div class="menu-section yellow">
-    <a href="quienes-somos.php" class="menu-link">
+    <a href="quienessomos.php" class="menu-link">
       <img src="assets/img/pajaro.png" alt="Icono quienes somos" class="menu-section-img">
       <span class="menu-section-word">Quienes somos</span>
     </a>

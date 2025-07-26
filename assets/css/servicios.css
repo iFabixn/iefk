@@ -1180,3 +1180,43 @@ a.footer__link:hover{
         font-size: 1rem;
     }
 }
+
+/* Animación para la cenefa 2: fade in y slide desde la derecha */
+@keyframes fadeInCenefa2 {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.cenefa-img-divider2 {
+  opacity: 0;
+  animation: fadeInCenefa2 1s ease forwards;
+  animation-delay: 0.9s;
+}
+
+.cenefa-img-divider {
+  opacity: 0;
+  animation: fadeInCenefa2 1s ease forwards;
+  animation-delay: 0.9s;
+}
+
+/* Animación para el footer: fade in desde abajo */
+@keyframes fadeInFooter {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.footer {
+  opacity: 0;
+  animation: fadeInFooter 1s ease forwards;
+  animation-delay: 0.7s;
+}
