@@ -560,6 +560,7 @@ a.footer__link:hover{
     .menu-section-img {
         height: 70px !important;
         max-width: 100vw !important;
+        border-radius: 0 !important;
     }
     
 
