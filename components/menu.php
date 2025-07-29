@@ -26,12 +26,12 @@
     </a>
   </div>
   <div class="menu-section yellow">
-    <a href="escuelas.php" class="menu-link">
+    <a href="planteles.php" class="menu-link">
       <img src="assets/img/escuela.png" alt="Icono escuelas" class="menu-section-img">
       <span class="menu-section-word">Planteles</span>
     </a>
   </div>
   <div class="menu-section red">
-    <a href="contacto.php" class="menu-link">
+    <a href="" class="menu-link">
       <img src="assets/img/libro.png" alt="Icono contacto" class="menu-section-img">
-      <span class="menu-section-word">Contacto</span>
+      <span class="menu-section-word">Próximamente...</span>

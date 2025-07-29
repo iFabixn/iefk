@@ -20,7 +20,7 @@
                     <li><a href="index.php" class="footer__link">Inicio</a></li>
                     <li><a href="quienessomos.php" class="footer__link">Quienes somos</a></li>
                     <li><a href="servicios.php" class="footer__link">Servicios</a></li>
-                    <li><a href="escuelas.php" class="footer__link">Planteles</a></li>
+                    <li><a href="planteles.php" class="footer__link">Planteles</a></li>
                 </ul>
             </div>
             <div>

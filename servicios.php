@@ -35,25 +35,33 @@ $customLogo = "assets/img/logo frida kahlo blanco horizontal.png";
             <!-- Card: Guardería -->
             <div class="card-left fade-in-up" style="animation-delay:0.4s">
                 <div class="card-inner">
-                    <img src="assets/img/guarderia.png" alt="Guardería">
+                    <a href="guarderia.php">
+                        <img src="assets/img/guarderia.png" alt="Guardería">
+                    </a>
                 </div>
             </div>
             <!-- Card: Preescolar -->
             <div class="card-left fade-in-up" style="animation-delay:0.5s">
                 <div class="card-inner">
-                    <img src="assets/img/preescolar.png" alt="Preescolar">
+                    <a href="preescolar.php">
+                        <img src="assets/img/preescolar.png" alt="Preescolar">
+                    </a>
                 </div>
             </div>
             <!-- Card: Primaria -->
             <div class="card-right fade-in-up" style="animation-delay:0.6s">
                 <div class="card-inner">
-                    <img src="assets/img/primaria.png" alt="Primaria">
+                    <a href="primaria.php">
+                        <img src="assets/img/primaria.png" alt="Primaria">
+                    </a>
                 </div>
             </div>
             <!-- Card: Licenciatura -->
             <div class="card-right fade-in-up" style="animation-delay:0.7s">
                 <div class="card-inner">
-                    <img src="assets/img/licenciatura.png" alt="Licenciatura">
+                    <a href="licenciatura.php">
+                        <img src="assets/img/licenciatura.png" alt="Licenciatura">
+                    </a>
                 </div>
             </div>
         </div>
@@ -76,10 +84,11 @@ $customLogo = "assets/img/logo frida kahlo blanco horizontal.png";
                 </div>
                 <!-- Información de la noticia -->
                 <div class="noticias-info fade-in-up" style="animation-delay:1.3s">
-                    <h3 class="noticia-titulo">Noticia Lorem Ipsum</h3>
+                    <h3 class="noticia-titulo">¡Comenzamos las remodelaciones para recibir el nuevo ciclo escolar!</h3>
                     <img src="assets/img/cenefarombosmobile.png" alt="Cenefa noticia" class="cenefa-noticia-img">
                     <div class="noticia-texto">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur, nisl nisi consectetur nisi, euismod euismod nisi nisi euismod.
+                        Estamos renovando nuestros espacios para ofrecer un ambiente más cómodo, seguro y estimulante para todos nuestros alumnos.
+¡Nos emociona recibirlos este 01 de septiembre!
                     </div>
                 </div>
             </div>

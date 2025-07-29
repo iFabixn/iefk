@@ -1,0 +1,16 @@
+.plantel-item{
+    flex: none!important;
+}
+.horarios-content{
+    justify-content: center!important;
+}
+.actividades-container{
+    justify-content: center!important;
+}
+
+.actividades-col{
+    max-width: 500px;
+}
+span{
+    text-align: start;
+}

@@ -1,0 +1,589 @@
+/* ===================== GOOGLE FONTS ===================== */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* ===================== VARIABLES CSS ===================== */
+:root {
+  --header-height: 3.5rem;
+  --first-color: #fb5c76;
+  --first-color-alt: #f3516a;
+  --title-color: #000000;
+  --text-color: #ff9e35;
+  --text-color-light: #ff9ca7;
+  --body-color: #f0f0f0;
+  --container-color: hsl(21, 78%, 96%);
+  --section: #000000;
+  font-family: 'Source Sans 3', sans-serif;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/* ===================== BASE ===================== */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  transition: background 1s;
+}
+
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===================== SCROLL BAR ===================== */
+::-webkit-scrollbar {
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(340, 37%, 29%);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: .5rem;
+  background-color: hsl(19, 8%, 65%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(19, 8%, 55%);
+}
+
+
+
+
+
+/* ===================== MAIN CONTENT ===================== */
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* ===================== HEADER PLANTELES ===================== */
+.planteles-header {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.planteles-title {
+  font-size: 3.5em;
+  color: #6e6e6e;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.planteles-cenefa {
+  margin: 0.5rem 0 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cenefa-img-divider3 {
+  width: 390px;
+  height: auto;
+  display: block;
+}
+
+.planteles-description {
+  font-size: 1.2em;
+  color: #6e6e7c;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ===================== SECCIÓN PLANTEL ===================== */
+.plantel-section {
+  margin-bottom: 8rem;
+}
+
+.plantel-card {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plantel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+}
+
+.plantel-header {
+  background: linear-gradient(135deg, var(--first-color), var(--first-color-alt));
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.plantel-name {
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.plantel-badge {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  font-size: 0.9em;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+}
+
+.plantel-badge.principal {
+  background: rgba(255,215,0,0.3);
+}
+
+.plantel-badge.reciente {
+  background: rgba(34,197,94,0.3);
+}
+
+.plantel-badge.familiar {
+  background: rgba(168,85,247,0.3);
+}
+
+.plantel-content {
+  display: flex;
+  gap: 3rem;
+  padding: 3rem;
+  align-items: flex-start;
+}
+
+.plantel-content.reverse {
+  flex-direction: row-reverse;
+}
+
+.plantel-info-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.plantel-gallery-col {
+  flex: 1;
+  max-width: 500px;
+}
+
+/* ===================== SERVICIOS ===================== */
+.plantel-services {
+  margin-bottom: 2rem;
+}
+
+.plantel-subtitle {
+  font-size: 1.8em;
+  color: var(--first-color);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: #f8f9fa;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid var(--first-color);
+  transition: transform 0.2s ease;
+}
+
+.service-item:hover {
+  transform: translateX(5px);
+}
+
+.service-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.service-name {
+  color: #2d3748;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+/* ===================== DETALLES ===================== */
+.plantel-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  transition: background 0.2s ease;
+}
+
+.detail-item:hover {
+  background: #e9ecef;
+}
+
+.detail-item i {
+  color: var(--first-color);
+  font-size: 1.2em;
+  margin-top: 0.2rem;
+  width: 20px;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.detail-content strong {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.detail-content span {
+  color: #6e6e7c;
+  font-size: 0.95em;
+}
+
+/* ===================== ACCIONES ===================== */
+.plantel-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-location,
+.btn-contact {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1em;
+}
+
+.btn-location {
+  background: var(--first-color);
+  color: white;
+}
+
+.btn-location:hover {
+  background: var(--first-color-alt);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(251,92,118,0.3);
+}
+
+.btn-contact {
+  background: transparent;
+  color: var(--first-color);
+  border: 2px solid var(--first-color);
+}
+
+.btn-contact:hover {
+  background: var(--first-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* ===================== GALERÍA ===================== */
+.gallery-container {
+  width: 100%;
+}
+
+.gallery-main {
+  margin-bottom: 1rem;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.gallery-main-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-main-img:hover {
+  transform: scale(1.05);
+}
+
+.gallery-thumbs {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-thumb {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.gallery-thumb:hover,
+.gallery-thumb.active {
+  opacity: 1;
+  border-color: var(--first-color);
+  transform: scale(1.1);
+}
+
+/* ===================== CONTACTO GENERAL ===================== */
+.planteles-contact {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.contact-card {
+  background: linear-gradient(135deg, var(--first-color), var(--first-color-alt));
+  padding: 3rem;
+  border-radius: 24px;
+  text-align: center;
+  color: white;
+}
+
+.contact-title {
+  font-size: 2.5em;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.contact-description {
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-contact-main,
+.btn-email {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.1em;
+}
+
+.btn-contact-main {
+  background: white;
+  color: var(--first-color);
+}
+
+.btn-contact-main:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255,255,255,0.3);
+}
+
+.btn-email {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-email:hover {
+  background: white;
+  color: var(--first-color);
+  transform: translateY(-3px);
+}
+
+/* ===================== RESPONSIVE DESIGN ===================== */
+@media screen and (max-width: 768px) {
+  .planteles-title {
+    font-size: 2.5em;
+    margin-top: 3rem;
+  }
+  
+  .cenefa-img-divider3 {
+    width: 280px;
+  }
+  
+  .plantel-content {
+    flex-direction: column !important;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .plantel-content.reverse {
+    flex-direction: column !important;
+  }
+  
+  .plantel-header {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .plantel-name {
+    font-size: 2em;
+  }
+  
+  .services-grid {
+    flex-direction: column;
+  }
+  
+  .plantel-actions {
+    flex-direction: column;
+  }
+  
+  .contact-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-contact-main,
+  .btn-email {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .gallery-main-img {
+    height: 250px;
+  }
+  
+  .gallery-thumbs {
+    gap: 0.3rem;
+  }
+  
+  .gallery-thumb {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-content {
+    padding: 1rem 0.5rem;
+  }
+  
+  .planteles-title {
+    font-size: 2em;
+  }
+  
+  .cenefa-img-divider3 {
+    width: 250px;
+  }
+  
+  .plantel-content {
+    padding: 1.5rem;
+  }
+  
+  .plantel-name {
+    font-size: 1.8em;
+  }
+  
+  .contact-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .contact-title {
+    font-size: 2em;
+  }
+}
+
+/* ===================== ANIMACIONES ===================== */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.planteles-header {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.plantel-section {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.planteles-contact {
+  animation: fadeInUp 0.8s ease forwards;
+}
