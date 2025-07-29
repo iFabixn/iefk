@@ -88,30 +88,38 @@ $customLogo = "assets/img/logorosa.png";
     
     <!-- Cards de servicios principales -->
     <div class="qs-ofertas-cards-row">
-      <div class="qs-ofertas-card">
-        <div class="qs-card-image">
-          <img src="assets/img/guarderiablanco.png" alt="Guardería">
+      <a href="guarderia.php">
+        <div class="qs-ofertas-card">
+          <div class="qs-card-image">
+            <img src="assets/img/guarderiablanco.png" alt="Guardería">
+          </div>
+          <h3 class="qs-card-title">Guardería</h3>
         </div>
-        <h3 class="qs-card-title">Guardería</h3>
-      </div>
-      <div class="qs-ofertas-card">
-        <div class="qs-card-image">
-          <img src="assets/img/preescolarblanco.png" alt="Preescolar">
+      </a>
+      <a href="preescolar.php">
+        <div class="qs-ofertas-card">
+          <div class="qs-card-image">
+            <img src="assets/img/preescolarblanco.png" alt="Preescolar">
+          </div>
+          <h3 class="qs-card-title">Preescolar</h3>
         </div>
-        <h3 class="qs-card-title">Preescolar</h3>
-      </div>
-      <div class="qs-ofertas-card">
-        <div class="qs-card-image">
-          <img src="assets/img/pajaro.png" alt="Primaria">
+      </a>
+      <a href="primaria.php">
+        <div class="qs-ofertas-card">
+          <div class="qs-card-image">
+            <img src="assets/img/pajaro.png" alt="Primaria">
+          </div>
+          <h3 class="qs-card-title">Primaria</h3>
         </div>
-        <h3 class="qs-card-title">Primaria</h3>
-      </div>
-      <div class="qs-ofertas-card">
-        <div class="qs-card-image">
-          <img src="assets/img/buho blanco.png" alt="Licenciatura">
+      </a>
+      <a href="licenciatura.php">
+        <div class="qs-ofertas-card">
+          <div class="qs-card-image">
+            <img src="assets/img/buho blanco.png" alt="Licenciatura">
+          </div>
+          <h3 class="qs-card-title">Lic. en Pedagogía</h3>
         </div>
-        <h3 class="qs-card-title">Licenciatura en Pedagogía</h3>
-      </div>
+      </a>
     </div>
     
     <!-- Lista de servicios adicionales -->

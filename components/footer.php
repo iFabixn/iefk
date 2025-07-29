@@ -27,8 +27,8 @@
                 
                 <h3 class="footer__title">Información</h3>
                 <ul class="footer__links">
-                    <li><a href="index.html#contact" class="footer__link">WhatsApp</a></li>
-                    <li><a href="#" class="footer__link">Bolsa de trabajo</a></li>
+                    <li><a href="https://wa.me/523316906553?text=Vengo%20de%20la%20pagina%20web" target="_blank" class="footer__link">WhatsApp</a></li>
+                    <li><a href="bolsadetrabajo.php" class="footer__link">Bolsa de trabajo</a></li>
                     <li><a href="#" class="footer__link">Alianzas</a></li>
                 </ul>
             </div>
@@ -40,10 +40,10 @@
                     <a href="https://www.tiktok.com/" target="_blank" class="social-icon" aria-label="TikTok">
                       <i class="fab fa-tiktok"></i>
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="social-icon" aria-label="Instagram">
+                    <a href="https://www.instagram.com/inst.fridak/" target="_blank" class="social-icon" aria-label="Instagram">
                       <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://www.facebook.com/" target="_blank" class="social-icon" aria-label="Facebook">
+                    <a href="https://www.facebook.com/institutofrida" target="_blank" class="social-icon" aria-label="Facebook">
                       <i class="fab fa-facebook"></i>
                     </a>
                     
@@ -58,7 +58,7 @@
     <!-- Información legal y créditos -->
     <div class="footer__info ">
         <span class="footer__copy">
-            &#169; Copyright IEFK. All rights reserved. Designed and crafted by <a href="developer.html" class="fabixpage">Fabixn.</a>
+            &#169; Copyright IEFK. All rights reserved. Designed and crafted by <a href="https://wa.me/523327011050?text=Vi%20tu%20pagina%20del%20Instituto%20Educativo%20Frida%20Kahlo" target="_blank" class="fabixpage">Fabixn.</a>
         </span>
     </div>
 </footer>

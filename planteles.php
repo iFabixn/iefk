@@ -41,20 +41,16 @@
                             <h3 class="plantel-subtitle">Servicios que ofrecemos</h3>
                             <div class="services-grid">
                                 <div class="service-item">
-                                    <img src="assets/img/guarderiarosa.png" alt="Guardería" class="service-icon">
+                                    <a href="guarderia.php"><img src="assets/img/guarderiarosa.png" alt="Guardería" class="service-icon"></a>
                                     <span class="service-name">Guardería</span>
                                 </div>
                                 <div class="service-item">
-                                    <img src="assets/img/preescolarrosa.png" alt="Preescolar" class="service-icon">
+                                    <a href="preescolar.php"><img src="assets/img/preescolarrosa.png" alt="Preescolar" class="service-icon"></a>
                                     <span class="service-name">Preescolar</span>
                                 </div>
                                 <div class="service-item">
-                                    <img src="assets/img/primariarosa.png" alt="Primaria" class="service-icon">
+                                    <a href="primaria.php"><img src="assets/img/primariarosa.png" alt="Primaria" class="service-icon"></a>
                                     <span class="service-name">Primaria</span>
-                                </div>
-                                <div class="service-item">
-                                    <img src="assets/img/licenciaturarosa.png" alt="Licenciatura en Pedagogía" class="service-icon">
-                                    <span class="service-name">Licenciatura en Pedagogía</span>
                                 </div>
                             </div>
                         </div>
