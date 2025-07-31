@@ -1,3 +1,23 @@
+<style>
+
+.menu-section.disabled .menu-link {
+    color: #888 !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.menu-section.disabled .menu-section-img {
+    filter: grayscale(100%) brightness(0.6);
+    opacity: 0.5;
+}
+
+.menu-section.disabled .menu-section-word {
+    color: #888 !important;
+    position: relative;
+}
+
+</style>
+
 <div class="menu-background" id="menuBackground"></div>
 <div class="menu-overlay" id="menuOverlay">
   <div class="menu-overlay-header-row">
@@ -31,7 +51,9 @@
       <span class="menu-section-word">Planteles</span>
     </a>
   </div>
-  <div class="menu-section red">
+  <div class="menu-section red disabled">
     <a href="" class="menu-link">
       <img src="assets/img/libro.png" alt="Icono contacto" class="menu-section-img">
       <span class="menu-section-word">Próximamente...</span>
+    </a>
+  </div>

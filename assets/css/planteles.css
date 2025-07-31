@@ -587,3 +587,8 @@ img {
 .planteles-contact {
   animation: fadeInUp 0.8s ease forwards;
 }
+@media (min-width: 915px) {
+    #zapoteMainImg {
+        height: 500px;
+    }
+}

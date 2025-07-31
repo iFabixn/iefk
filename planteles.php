@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="assets/css/quienessomos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="icon" type="image/png" href="assets/img/logo sin letras.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   </head>
   
   <body>
@@ -101,13 +101,10 @@
                     <div class="plantel-gallery-col">
                         <div class="gallery-container">
                             <div class="gallery-main">
-                                <img src="assets/img/.png" alt="Plantel El Zapote" class="gallery-main-img" id="zapoteMainImg">
+                                <img src="assets/img/mantenimiento.png" alt="Plantel El Zapote" class="gallery-main-img" id="zapoteMainImg">
                             </div>
                             <div class="gallery-thumbs">
-                                <img src="assets/img/.png" alt="Exterior" class="gallery-thumb active" onclick="changeImage('zapoteMainImg', this.src)">
-                                <img src="assets/img/.png" alt="Salón" class="gallery-thumb" onclick="changeImage('zapoteMainImg', this.src)">
-                                <img src="assets/img/.png" alt="Área de juegos" class="gallery-thumb" onclick="changeImage('zapoteMainImg', this.src)">
-                                <img src="assets/img/.png" alt="Comedor" class="gallery-thumb" onclick="changeImage('zapoteMainImg', this.src)">
+                                <img src="assets/img/mantenimiento.png" alt="Exterior" class="gallery-thumb active"  onclick="changeImage('zapoteMainImg', this.src)">
                             </div>
                         </div>
                     </div>

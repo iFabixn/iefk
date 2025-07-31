@@ -1461,7 +1461,7 @@ a.footer__link:hover{
 }
 
 .shapeq-3 {
-  top: 280%;
+  top: 256%;
   right: 4%;
   transform: scaleX(-1);
 }
@@ -1482,7 +1482,7 @@ a.footer__link:hover{
 
 
 .shapeq-5 {
-  top: 218%;
+  top: 200%;
   right: 2%;
   transform: scaleX(-1);
 }
@@ -1492,7 +1492,7 @@ a.footer__link:hover{
 }   
 
 .shapeq-6 {
-  top: 159%;
+  top: 155%;
   left: 19%;
   transform: scaleX(-1);
 }
@@ -1509,7 +1509,7 @@ a.footer__link:hover{
 }
 
 .shapeq-8 {
-  top: 163%;
+  top: 156%;
   left: 6%;
 }
 .shapeq-8 img{
@@ -1528,11 +1528,12 @@ a.footer__link:hover{
 }
 
 .shapeq-10 {
-  top: 280%;
-  left: 13%;
+  top: 255%;
+  left: 6%;
 }
 .shapeq-10 img{
   width: 150px;
+  display: none;
 }
 
 

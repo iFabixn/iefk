@@ -35,95 +35,95 @@ span{
 }
 
 /* Posiciones iniciales aleatorias para cada shape */
-.shape-1 {
+.shapek-1 {
   top: 20%;
   left: 11%;
 }
-.shape-1 img{
+.shapek-1 img{
   width: 100px;
 }
 
-.shape-2 {
+.shapek-2 {
   top: 20%;
   right: 21%;
   transform: scaleX(-1);
 }
-.shape-2 img{
+.shapek-2 img{
   width: 100px;
 }
 
-.shape-3 {
-  top: 435%;
+.shapek-3 {
+  top: 399%;
   right: 71%;
   transform: scaleX(-1);
 }
 
-.shape-3 img{
+.shapek-3 img{
   width: 100px;
 }
 
-.shape-4 {
+.shapek-4 {
   top: 161%;
   right: 11%;
   transform: scaleX(-1);
 }
 
-.shape-4 img{
+.shapek-4 img{
   width: 100px;
 }
 
-.shape-5 {
-  top: 470%;
+.shapek-5 {
+  top: 387%;
   right: 11%;
   transform: scaleX(-1);
 }
 
-.shape-5 img{
+.shapek-5 img{
   width: 100px;
 }
 
 
-.shape-6 {
-  top: 159%;
+.shapek-6 {
+  top: 154%;
   left: 19%;
   transform: scaleX(-1);
 }
-.shape-6 img{
+.shapek-6 img{
   width: 100px;
 }
 
-.shape-7 {
+.shapek-7 {
   top: 66%;
   right: 88%;
 }
-.shape-7 img{
+.shapek-7 img{
   width: 100px;
 }
 
-.shape-8 {
-  top: 163%;
+.shapek-8 {
+  top: 155%;
   left: 6%;
 }
-.shape-8 img{
+.shapek-8 img{
   width: 200px;
 }
 
 
-.shape-9 {
+.shapek-9 {
   top: 72%;
   right: 5%;
   transform: scaleX(-1);
 }
 
-.shape-9 img{
+.shapek-9 img{
   width: 100px;
 }
 
-.shape-10 {
-  top: 436%;
+.shapek-10 {
+  top: 401%;
   left: 6%;
 }
-.shape-10 img{
+.shapek-10 img{
   width: 200px;
 }
 
@@ -395,8 +395,8 @@ span{
 
 /* ===================== NAVIGATION SECTION ===================== */
 .navigation-section {
-    padding: 3rem 0;
-    margin: 2rem 0;
+    padding: 0;
+    margin: 0 55px;
     border-radius: 20px;
 }
 
@@ -506,4 +506,13 @@ span{
         padding: 0.8rem 1.5rem;
         font-size: 1rem;
     }
+
+.qs-ofertas-titlepreescolar {
+    font-size: 3.5em;
+    color: #6e6e6e;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin: 0 30px;
 }
+}
+

@@ -1,95 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
+    <!-- ===================== META INFORMACIÓN ===================== -->
     <meta charset="UTF-8">
-    <title>Instituto Educativo Frida Kahlo</title>
+    <title>Preescolar - Instituto Educativo Frida Kahlo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/img/logo sin letras.png">
+    
+    <!-- ===================== HOJAS DE ESTILO ===================== -->
     <link rel="stylesheet" href="assets/css/guarderia.css">
     <link rel="stylesheet" href="assets/css/quienessomos.css">
     <link rel="stylesheet" href="assets/css/preescolar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="icon" type="image/png" href="assets/img/logo sin letras.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+</head>
   
-  <body>
+<body>
+    <!-- ===================== CONFIGURACIÓN PHP ===================== -->
     <?php
       $customLogo = "assets/img/logorosa.png";
     ?>
+    
+    <!-- ===================== HEADER PRINCIPAL ===================== -->
     <?php include 'components/header.php'; ?>
 
-    <!-- ===================== ESTANCIA INFANTIL ===================== -->
-    <!-- Decorative Shapes -->
-            <div class="shape shape-1" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
-            </div>
-            <div class="shape shape-2" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
-            </div>
-           
-            <div class="shape shape-4" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
-            </div>
-         
-             <!-- Decorative Shapes -->
-            <div class="shape shape-6" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 6">
-            </div>
-            <div class="shape shape-7" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 7">
-            </div>
-            <div class="shape shape-8" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 8">
-            </div>
-            <div class="shape shape-9" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 9">
-            </div>
-            <div class="shape shape-3" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 3">
-            </div>
-            <div class="shape shape-5" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 5">
-            </div>
-            <div class="shape shape-10" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 10">
-            </div>
-    <main class="guarderia-main">
-        <!-- Título principal -->
-         <div class="qs-ofertas-header">
-      <h2 class="qs-ofertas-title">Preescolar</h2>
-      <div class="qs-ofertas-cenefa">
-        <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider5">
-      </div>
+    <!-- ===================== FORMAS DECORATIVAS FLOTANTES ===================== -->
+    <!-- Estas formas son elementos visuales arrastrables que adornan la página -->
+    <div class="shape shapek-1" draggable="true">
+        <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
+    </div>
+    <div class="shape shapek-2" draggable="true">
+        <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
+    </div>
+    <div class="shape shapek-3" draggable="true">
+        <img src="assets/img/cloud1.png" alt="Cloud Shape 3">
+    </div>
+    <div class="shape shapek-4" draggable="true">
+        <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
+    </div>
+    <div class="shape shapek-5" draggable="true">
+        <img src="assets/img/cloud1.png" alt="Cloud Shape 5">
+    </div>
+    <div class="shape shapek-6" draggable="true">
+        <img src="assets/img/cloud1.png" alt="Cloud Shape 6">
+    </div>
+    <div class="shape shapek-7" draggable="true">
+        <img src="assets/img/cloud1.png" alt="Cloud Shape 7">
+    </div>
+    <div class="shape shapek-8" draggable="true">
+        <img src="assets/img/cloud1.png" alt="Cloud Shape 8">
+    </div>
+    <div class="shape shapek-9" draggable="true">
+        <img src="assets/img/cloud1.png" alt="Cloud Shape 9">
+    </div>
+    <div class="shape shapek-10" draggable="true">
+        <img src="assets/img/cloud1.png" alt="Cloud Shape 10">
     </div>
 
-        <!-- Contenido principal -->
+    <!-- ===================== CONTENIDO PRINCIPAL ===================== -->
+    <main class="guarderia-main">
+        
+        <!-- ===================== TÍTULO Y ENCABEZADO PRINCIPAL ===================== -->
+        <div class="qs-ofertas-header">
+            <h2 class="qs-ofertas-title">Preescolar</h2>
+            <div class="qs-ofertas-cenefa">
+                <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider5">
+            </div>
+        </div>
+
+        <!-- ===================== CONTENEDOR PRINCIPAL ===================== -->
         <div class="guarderia-content">
             
-            <main class="main-content">
+            <!-- ===================== SECCIÓN INFORMATIVA PRINCIPAL ===================== -->
+            <section class="main-content">
                 <div class="qs-row">
+                    <!-- Columna de imagen -->
                     <div class="qs-img-col-guarderia">
-                    <img src="assets/img/preescolarrosa.png" alt="Imagen quienes somos">
+                        <img src="assets/img/preescolarrosa.png" alt="Imagen preescolar">
                     </div>
+                    <!-- Columna de información -->
                     <div class="qs-info-col">
-                    <div class="qs-subtitle">Primeros pasos</div>
-                    <div class="qs-cenefa">
-                        <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider3">
-                    </div>
-                    <div class="qs-lorem">
-                        <p>Nuestro programa de preescolar está diseñado para acompañar a los niños en sus primeros pasos hacia el aprendizaje formal. A través de un enfoque pedagógico integral, fomentamos el desarrollo de habilidades cognitivas, socioemocionales y motrices que serán la base sólida para su éxito académico futuro. Con metodologías innovadoras y un ambiente cálido de aprendizaje, preparamos a cada niño para enfrentar con confianza y entusiasmo su transición hacia la educación primaria, cultivando su curiosidad natural y amor por el conocimiento.</p>
-                    </div>
+                        <div class="qs-subtitle">Primeros pasos</div>
+                        <div class="qs-cenefa">
+                            <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider3">
+                        </div>
+                        <div class="qs-lorem">
+                            <p>Nuestro programa de preescolar está diseñado para acompañar a los niños en sus primeros pasos hacia el aprendizaje formal. A través de un enfoque pedagógico integral, fomentamos el desarrollo de habilidades cognitivas, socioemocionales y motrices que serán la base sólida para su éxito académico futuro. Con metodologías innovadoras y un ambiente cálido de aprendizaje, preparamos a cada niño para enfrentar con confianza y entusiasmo su transición hacia la educación primaria, cultivando su curiosidad natural y amor por el conocimiento.</p>
+                        </div>
                     </div>
                 </div>
-            </main>
+            </section>
 
-            <!-- Sección de dos columnas: Actividades e Imagen -->
+            <!-- ===================== SECCIÓN ACTIVIDADES Y CARRUSEL ===================== -->
             <section class="actividades-section">
                 <div class="actividades-container">
-                    <!-- Columna izquierda: Actividades -->
+                    
+                    <!-- ===================== COLUMNA IZQUIERDA: LISTA DE ACTIVIDADES ===================== -->
                     <div class="actividades-col">
                         <h3 class="actividades-title">Actividades:</h3>
                         <div class="qs-cenefa">
-                        <img src="assets/img/cenefarombos.png" alt="Cenefa divisoria" class="cenefa-img-divider3">
-                    </div>
+                            <img src="assets/img/cenefarombos.png" alt="Cenefa divisoria" class="cenefa-img-divider3">
+                        </div>
                         
                         <ul class="actividades-list">
                             <li class="actividad-item">
@@ -135,7 +145,7 @@
                         </ul>
                     </div>
 
-                    <!-- Columna derecha: Carrusel de imágenes -->
+                    <!-- ===================== COLUMNA DERECHA: CARRUSEL DE IMÁGENES ===================== -->
                     <div class="imagen-col">
                         <div class="carousel-container">
                             <div class="carousel-wrapper">
@@ -195,10 +205,10 @@
                                         <img src="assets/img/preescolar/18.jpeg" alt="Actividad 18" class="carousel-img">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/img/preescolar/19.jpeg" alt="Actividad 18" class="carousel-img">
+                                        <img src="assets/img/preescolar/19.jpeg" alt="Actividad 19" class="carousel-img">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/img/preescolar/20.jpeg" alt="Actividad 18" class="carousel-img">
+                                        <img src="assets/img/preescolar/20.jpeg" alt="Actividad 20" class="carousel-img">
                                     </div>
                                 </div>
                             </div>
@@ -211,213 +221,224 @@
                                 <i class="fas fa-chevron-right"></i>
                             </button>
                             
-                            <!-- Indicadores -->
+                            <!-- Indicadores del carrusel -->
                             <div class="carousel-indicators" id="carouselIndicators">
-                                <!-- Los indicadores se generarán dinámicamente -->
+                                <!-- Los indicadores se generarán dinámicamente con JavaScript -->
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Nueva sección: ¿Qué ofrecemos? -->
-<section class="main-content">
-  <div class="qs-ofertas-col">
-    <!-- Subtítulo principal -->
-    <div class="qs-ofertas-header">
-      <h2 class="qs-ofertas-title">¿Qué ofrecemos?</h2>
-      <div class="qs-ofertas-cenefa">
-        <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider5">
-      </div>
-    </div>
-    
-    
-    <!-- Lista de servicios adicionales -->
-    <div class="qs-servicios-list">
-      <div class="qs-servicios-column">
-        <div class="qs-servicio-item">
-          <img src="assets/img/romboamarillo.png" alt="Inglés diario" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Inglés diario desde primero de preescolar hasta tercero de preescolar.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romborojo.png" alt="Educación personalizada" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Alianza con <a href="https://www.amco.me/padre-de-familia/nosotros" class="linkamco">Amco</a> para un nivel de aprendizaje más alto en nuestros libros de texto.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romborojo.png" alt="Instalaciones modernas" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Circuito cerrado en todas nuestras aulas.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romboamarillo.png" alt="Actividades al aire libre" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Taller socioemocional para el desarrollo de habilidades blandas a través del programa <a href="https://www.amco.me/happy/177" class="linkamco">Happy</a>.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romborojo.png" alt="Instalaciones modernas" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Servicio de comedor en todos nuestros paquetes, el cual está avalado por un nutriólogo.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romboamarillo.png" alt="Actividades al aire libre" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Trabajamos mediante las inteligencias múltiples.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romborojo.png" alt="Instalaciones modernas" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Personal certificado en la red de <a href="https://www.ilce.edu.mx/competencias-docentes/ec0335-prestacion-de-servicios-de-educacion-inicial" class="linkamco">CONOCER</a>.</span>
-        </div>
-         <div class="qs-servicio-item">
-          <img src="assets/img/romboamarillo.png" alt="Instalaciones modernas" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Uso de la plataforma de <a href="https://www.amconews.com/metodologias-amco/aluzo-learning-platform-by-amco/" class="linkamco">Aluzo</a> para actividades en casa, tareas y comunicación.</span>
-        </div>
-      </div>
-      <div class="qs-servicios-column">
-        <div class="qs-servicio-item">
-          <img src="assets/img/romboamarillo.png" alt="Desarrollo integral" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Horario extendido desde 7:30 a.m. hasta las 8:00 p.m.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romborojo.png" alt="Tecnología educativa" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Contamos con departamento de psicopedagogía.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romboamarillo.png" alt="Horario extendido" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Actividades funcionales donde se interactúa toda la comunidad educativa.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romborojo.png" alt="Ambiente familiar" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Talleres rotativos vespertinos los cuales deciden los alumnos.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romboamarillo.png" alt="Actividades al aire libre" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Integramos la <a href="https://dfa.edomex.gob.mx/sites/dfa.edomex.gob.mx/files/files/NEM%20principios%20y%20orientacio%C3%ADn%20pedago%C3%ADgica.pdf" class="linkamco">NEM</a> en los aprendizajes diarios.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romborojo.png" alt="Instalaciones modernas" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Supervisados por <a href="https://www.gob.mx/difnacional" class="linkamco">DIF Nacional</a>, <a href="https://www.gob.mx/proteccioncivil" class="linkamco">Protección Civil</a> y la <a href="https://www.gob.mx/sep" class="linkamco">SEP</a>.</span>
-        </div>
-        <div class="qs-servicio-item">
-          <img src="assets/img/romboamarillo.png" alt="Actividades al aire libre" class="qs-servicio-icon">
-          <span class="qs-servicio-text">Implementación de la plataforma/aplicación de <a href="https://www.youtube.com/watch?v=FVEXNM4nNjQ" class="linkamco">Aldea</a> para pagos electrónicos, control de entradas y salidas mediante QR, reportes diarios y comunicación.</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
             
-    <div class="qs-ofertas-header">
-      <h2 class="qs-ofertas-title">¡Ofrecemos 3 modalidades de horario!</h2>
-      <div class="qs-ofertas-cenefa">
-        <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider5">
-      </div>
-    </div>
-
-    <!-- Sección Modalidades -->
-    <section class="modalidades-section">
-        <div class="modalidades-container">
-            <!-- Modalidad 1 -->
-            <div class="modalidad-card">
-                <div class="modalidad-header">
-                    <h3 class="modalidad-title">Modalidad 1</h3>
-                    <p class="modalidad-horario">8:00 a.m. a 2:00 p.m.</p>
-                    <p class="modalidad-subtitle">¡Todas nuestras modalidades incluyen los alimentos generados en el día!</p>
-                </div>
-                <div class="modalidad-content">
-                    <ul class="modalidad-list">
-                        <li><i class="fas fa-check"></i> Servicio educativo de 8:00 a.m. hasta las 2:00 p.m.</li>
-                        <li><i class="fas fa-check"></i> Todos los alimentos generados en el día.</li>
-                        <li><i class="fas fa-check"></i> Agua natural a libre demanda.</li>
-                        <li><i class="fas fa-check"></i> Conoce lo que hace tu hijo a través de reportes diarios en nuestra app Aldea.</li>
-                        <li><i class="fas fa-check"></i> 30 minutos de desayuno</li>
-                        <li><i class="fas fa-check"></i> 30 minutos de recreo</li>
-                        <li><i class="fas fa-check"></i> 5 horas de clases activas</li>
-                    </ul>
-                    <div class="modalidad-whatsapp-btn">
-                        <a href="https://wa.me/523316906553?text=Vengo%20de%20la%20pagina%20web%20y%20me%20interesa%20el%20servicio%20de%20preescolar%20con%20la%20modalidad%201" target="_blank" class="whatsapp-btn modalidad-btn">
-                            <i class="fab fa-whatsapp"></i> Contactar Modalidad 1
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modalidad 2 -->
-            <div class="modalidad-card">
-                <div class="modalidad-header">
-                    <h3 class="modalidad-title">Modalidad 2</h3>
-                    <p class="modalidad-horario">Desde las 7:30 a.m. hasta las 5:00 p.m.</p>
-                    <p class="modalidad-subtitle">¡Todas nuestras modalidades incluyen los alimentos generados en el día!</p>
-                </div>
-                <div class="modalidad-content">
-                    <h4 class="modalidad-section-title">Incluye:</h4>
-                    <ul class="modalidad-list">
-                        <li><i class="fas fa-check"></i> Servicio educativo de 8:00 a.m. hasta las 2:00 p.m.</li>
-                        <li><i class="fas fa-check"></i> Todos los alimentos generados en el día.</li>
-                        <li><i class="fas fa-check"></i> Agua natural a libre demanda.</li>
-                        <li><i class="fas fa-check"></i> Conoce lo que hace tu hijo a través de reportes diarios en nuestra app Aldea.</li>
-                        <li><i class="fas fa-check"></i> 30 minutos de desayuno</li>
-                        <li><i class="fas fa-check"></i> 30 minutos de recreo</li>
-                        <li><i class="fas fa-check"></i> 5 horas de clases activas</li>
-                    </ul>
+            <!-- ===================== SECCIÓN: ¿QUÉ OFRECEMOS? ===================== -->
+            <section class="main-content">
+                <div class="qs-ofertas-col">
                     
-                    <h4 class="modalidad-section-title">Extras incluidos:</h4>
-                    <ul class="modalidad-list">
-                        <li><i class="fas fa-plus"></i> Entrada desde las 7:30 a.m. (En caso de requerirlo)</li>
-                        <li><i class="fas fa-plus"></i> Salida hasta las 5:00 p.m. (En caso de requerirlo)</li>
-                        <li><i class="fas fa-plus"></i> Tiempo de alimentación del mediodía (2:00 p.m. a 2:30 p.m.)</li>
-                        <li><i class="fas fa-plus"></i> 1 hora de club de Tareas (2:30 p.m. a 3:30 p.m)</li>
-                        <li><i class="fas fa-plus"></i> Receso adicional (3:30 p.m. a 4:00 p.m.)</li>
-                        <li><i class="fas fa-plus"></i> Taller rotativo (arte, ciencia, música y más) (4:00 p.m. a 5:00 p.m.)</li>
-                    </ul>
-                    <div class="modalidad-whatsapp-btn">
-                        <a href="https://wa.me/523316906553?text=Vengo%20de%20la%20pagina%20web%20y%20me%20interesa%20el%20servicio%20de%20preescolar%20con%20la%20modalidad%202" target="_blank" class="whatsapp-btn modalidad-btn">
-                            <i class="fab fa-whatsapp"></i> Contactar Modalidad 2
-                        </a>
+                    <!-- Subtítulo principal -->
+                    <div class="qs-ofertas-header">
+                        <h2 class="qs-ofertas-title">¿Qué ofrecemos?</h2>
+                        <div class="qs-ofertas-cenefa">
+                            <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider5">
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Modalidad 3 -->
-            <div class="modalidad-card">
-                <div class="modalidad-header">
-                    <h3 class="modalidad-title">Modalidad 3</h3>
-                    <p class="modalidad-horario">Desde las 7:30 a.m. hasta las 8:00 p.m.</p>
-                    <p class="modalidad-subtitle">¡Todas nuestras modalidades incluyen los alimentos generados en el día!</p>
-                </div>
-                <div class="modalidad-content">
-                    <h4 class="modalidad-section-title">Incluye:</h4>
-                    <ul class="modalidad-list">
-                        <li><i class="fas fa-check"></i> Servicio educativo de 8:00 a.m. hasta las 2:00 p.m.</li>
-                        <li><i class="fas fa-check"></i> Todos los alimentos generados en el día.</li>
-                        <li><i class="fas fa-check"></i> Agua natural a libre demanda.</li>
-                        <li><i class="fas fa-check"></i> Conoce lo que hace tu hijo a través de reportes diarios en nuestra app Aldea.</li>
-                        <li><i class="fas fa-check"></i> 30 minutos de desayuno.</li>
-                        <li><i class="fas fa-check"></i> 30 minutos de receso.</li>
-                        <li><i class="fas fa-check"></i> 5 horas de clases activas.</li>
-                    </ul>
                     
-                    <h4 class="modalidad-section-title">Extras incluidos:</h4>
-                    <ul class="modalidad-list">
-                        <li><i class="fas fa-plus"></i> Entrada desde las 7:30 a.m. (En caso de requerirlo)</li>
-                        <li><i class="fas fa-plus"></i> Salida hasta las 8:00 p.m. (En caso de requerirlo)</li>
-                        <li><i class="fas fa-plus"></i> Tiempo de alimentación del mediodía (2:00 p.m. a 2:30 p.m.)</li>
-                        <li><i class="fas fa-plus"></i> 1 hora de club de Tareas (2:30 p.m. a 3:30 p.m)</li>
-                        <li><i class="fas fa-plus"></i> Receso adicional (3:30 p.m. a 4:00 p.m.)</li>
-                        <li><i class="fas fa-plus"></i> Taller rotativo (arte, ciencia, música y más) (4:00 p.m. a 5:00 p.m.)</li>
-                        <li><i class="fas fa-plus"></i> Merienda ligera (5:00 p.m. a 5:30 p.m.)</li>
-                        <li><i class="fas fa-plus"></i> Actividades lúdicas supervisada (5:30 p.m. a 8:00 pm)</li>
-                    </ul>
-                    <div class="modalidad-whatsapp-btn">
-                        <a href="https://wa.me/523316906553?text=Vengo%20de%20la%20pagina%20web%20y%20me%20interesa%20el%20servicio%20de%20preescolar%20con%20la%20modalidad%203" target="_blank" class="whatsapp-btn modalidad-btn">
-                            <i class="fab fa-whatsapp"></i> Contactar Modalidad 3
-                        </a>
+                    <!-- ===================== LISTA DE SERVICIOS EN DOS COLUMNAS ===================== -->
+                    <div class="qs-servicios-list">
+                        
+                        <!-- Primera columna de servicios -->
+                        <div class="qs-servicios-column">
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romboamarillo.png" alt="Inglés diario" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Inglés diario desde primero de preescolar hasta tercero de preescolar.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romborojo.png" alt="Educación personalizada" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Alianza con <a href="https://www.amco.me/padre-de-familia/nosotros" class="linkamco">Amco</a> para un nivel de aprendizaje más alto en nuestros libros de texto.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romborojo.png" alt="Instalaciones modernas" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Circuito cerrado en todas nuestras aulas.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romboamarillo.png" alt="Actividades al aire libre" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Taller socioemocional para el desarrollo de habilidades blandas a través del programa <a href="https://www.amco.me/happy/177" class="linkamco">Happy</a>.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romborojo.png" alt="Instalaciones modernas" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Servicio de comedor en todos nuestros paquetes, el cual está avalado por un nutriólogo.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romboamarillo.png" alt="Actividades al aire libre" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Trabajamos mediante las inteligencias múltiples.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romborojo.png" alt="Instalaciones modernas" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Personal certificado en la red de <a href="https://www.ilce.edu.mx/competencias-docentes/ec0335-prestacion-de-servicios-de-educacion-inicial" class="linkamco">CONOCER</a>.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romboamarillo.png" alt="Instalaciones modernas" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Uso de la plataforma de <a href="https://www.amconews.com/metodologias-amco/aluzo-learning-platform-by-amco/" class="linkamco">Aluzo</a> para actividades en casa, tareas y comunicación.</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Segunda columna de servicios -->
+                        <div class="qs-servicios-column">
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romboamarillo.png" alt="Desarrollo integral" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Horario extendido desde 7:30 a.m. hasta las 8:00 p.m.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romborojo.png" alt="Tecnología educativa" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Contamos con departamento de psicopedagogía.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romboamarillo.png" alt="Horario extendido" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Actividades funcionales donde se interactúa toda la comunidad educativa.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romborojo.png" alt="Ambiente familiar" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Talleres rotativos vespertinos los cuales deciden los alumnos.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romboamarillo.png" alt="Actividades al aire libre" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Integramos la <a href="https://dfa.edomex.gob.mx/sites/dfa.edomex.gob.mx/files/files/NEM%20principios%20y%20orientacio%C3%ADn%20pedago%C3%ADgica.pdf" class="linkamco">NEM</a> en los aprendizajes diarios.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romborojo.png" alt="Instalaciones modernas" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Supervisados por <a href="https://www.gob.mx/difnacional" class="linkamco">DIF Nacional</a>, <a href="https://www.gob.mx/proteccioncivil" class="linkamco">Protección Civil</a> y la <a href="https://www.gob.mx/sep" class="linkamco">SEP</a>.</span>
+                            </div>
+                            <div class="qs-servicio-item">
+                                <img src="assets/img/romboamarillo.png" alt="Actividades al aire libre" class="qs-servicio-icon">
+                                <span class="qs-servicio-text">Implementación de la plataforma/aplicación de <a href="https://www.youtube.com/watch?v=FVEXNM4nNjQ" class="linkamco">Aldea</a> para pagos electrónicos, control de entradas y salidas mediante QR, reportes diarios y comunicación.</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </section>
+
+            </section>
+
+            <!-- ===================== SECCIÓN: MODALIDADES DE HORARIO ===================== -->
+            <div class="qs-ofertas-header">
+                <h2 class="qs-ofertas-titlepreescolar">¡Ofrecemos 3 modalidades de horario!</h2>
+                <div class="qs-ofertas-cenefa">
+                    <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider5">
+                </div>
             </div>
-        </div>
-    </section>
+
+            <!-- ===================== TARJETAS DE MODALIDADES ===================== -->
+            <section class="modalidades-section">
+                <div class="modalidades-container">
+                    
+                    <!-- ===================== MODALIDAD 1 ===================== -->
+                    <div class="modalidad-card">
+                        <div class="modalidad-header">
+                            <h3 class="modalidad-title">Modalidad 1</h3>
+                            <p class="modalidad-horario">8:00 a.m. a 2:00 p.m.</p>
+                            <p class="modalidad-subtitle">¡Todas nuestras modalidades incluyen los alimentos generados en el día!</p>
+                        </div>
+                        <div class="modalidad-content">
+                            <ul class="modalidad-list">
+                                <li><i class="fas fa-check"></i> Servicio educativo de 8:00 a.m. hasta las 2:00 p.m.</li>
+                                <li><i class="fas fa-check"></i> Todos los alimentos generados en el día.</li>
+                                <li><i class="fas fa-check"></i> Agua natural a libre demanda.</li>
+                                <li><i class="fas fa-check"></i> Conoce lo que hace tu hijo a través de reportes diarios en nuestra app Aldea.</li>
+                                <li><i class="fas fa-check"></i> 30 minutos de desayuno</li>
+                                <li><i class="fas fa-check"></i> 30 minutos de recreo</li>
+                                <li><i class="fas fa-check"></i> 5 horas de clases activas</li>
+                            </ul>
+                            <div class="modalidad-whatsapp-btn">
+                                <a href="https://wa.me/523316906553?text=Vengo%20de%20la%20pagina%20web%20y%20me%20interesa%20el%20servicio%20de%20preescolar%20con%20la%20modalidad%201" target="_blank" class="whatsapp-btn modalidad-btn">
+                                    <i class="fab fa-whatsapp"></i> Contactar Modalidad 1
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ===================== MODALIDAD 2 ===================== -->
+                    <div class="modalidad-card">
+                        <div class="modalidad-header">
+                            <h3 class="modalidad-title">Modalidad 2</h3>
+                            <p class="modalidad-horario">Desde las 7:30 a.m. hasta las 5:00 p.m.</p>
+                            <p class="modalidad-subtitle">¡Todas nuestras modalidades incluyen los alimentos generados en el día!</p>
+                        </div>
+                        <div class="modalidad-content">
+                            <h4 class="modalidad-section-title">Incluye:</h4>
+                            <ul class="modalidad-list">
+                                <li><i class="fas fa-check"></i> Servicio educativo de 8:00 a.m. hasta las 2:00 p.m.</li>
+                                <li><i class="fas fa-check"></i> Todos los alimentos generados en el día.</li>
+                                <li><i class="fas fa-check"></i> Agua natural a libre demanda.</li>
+                                <li><i class="fas fa-check"></i> Conoce lo que hace tu hijo a través de reportes diarios en nuestra app Aldea.</li>
+                                <li><i class="fas fa-check"></i> 30 minutos de desayuno</li>
+                                <li><i class="fas fa-check"></i> 30 minutos de recreo</li>
+                                <li><i class="fas fa-check"></i> 5 horas de clases activas</li>
+                            </ul>
+                            
+                            <h4 class="modalidad-section-title">Extras incluidos:</h4>
+                            <ul class="modalidad-list">
+                                <li><i class="fas fa-plus"></i> Entrada desde las 7:30 a.m. (En caso de requerirlo)</li>
+                                <li><i class="fas fa-plus"></i> Salida hasta las 5:00 p.m. (En caso de requerirlo)</li>
+                                <li><i class="fas fa-plus"></i> Tiempo de alimentación del mediodía (2:00 p.m. a 2:30 p.m.)</li>
+                                <li><i class="fas fa-plus"></i> 1 hora de club de Tareas (2:30 p.m. a 3:30 p.m)</li>
+                                <li><i class="fas fa-plus"></i> Receso adicional (3:30 p.m. a 4:00 p.m.)</li>
+                                <li><i class="fas fa-plus"></i> Taller rotativo (arte, ciencia, música y más) (4:00 p.m. a 5:00 p.m.)</li>
+                            </ul>
+                            <div class="modalidad-whatsapp-btn">
+                                <a href="https://wa.me/523316906553?text=Vengo%20de%20la%20pagina%20web%20y%20me%20interesa%20el%20servicio%20de%20preescolar%20con%20la%20modalidad%202" target="_blank" class="whatsapp-btn modalidad-btn">
+                                    <i class="fab fa-whatsapp"></i> Contactar Modalidad 2
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ===================== MODALIDAD 3 ===================== -->
+                    <div class="modalidad-card">
+                        <div class="modalidad-header">
+                            <h3 class="modalidad-title">Modalidad 3</h3>
+                            <p class="modalidad-horario">Desde las 7:30 a.m. hasta las 8:00 p.m.</p>
+                            <p class="modalidad-subtitle">¡Todas nuestras modalidades incluyen los alimentos generados en el día!</p>
+                        </div>
+                        <div class="modalidad-content">
+                            <h4 class="modalidad-section-title">Incluye:</h4>
+                            <ul class="modalidad-list">
+                                <li><i class="fas fa-check"></i> Servicio educativo de 8:00 a.m. hasta las 2:00 p.m.</li>
+                                <li><i class="fas fa-check"></i> Todos los alimentos generados en el día.</li>
+                                <li><i class="fas fa-check"></i> Agua natural a libre demanda.</li>
+                                <li><i class="fas fa-check"></i> Conoce lo que hace tu hijo a través de reportes diarios en nuestra app Aldea.</li>
+                                <li><i class="fas fa-check"></i> 30 minutos de desayuno.</li>
+                                <li><i class="fas fa-check"></i> 30 minutos de receso.</li>
+                                <li><i class="fas fa-check"></i> 5 horas de clases activas.</li>
+                            </ul>
+                            
+                            <h4 class="modalidad-section-title">Extras incluidos:</h4>
+                            <ul class="modalidad-list">
+                                <li><i class="fas fa-plus"></i> Entrada desde las 7:30 a.m. (En caso de requerirlo)</li>
+                                <li><i class="fas fa-plus"></i> Salida hasta las 8:00 p.m. (En caso de requerirlo)</li>
+                                <li><i class="fas fa-plus"></i> Tiempo de alimentación del mediodía (2:00 p.m. a 2:30 p.m.)</li>
+                                <li><i class="fas fa-plus"></i> 1 hora de club de Tareas (2:30 p.m. a 3:30 p.m)</li>
+                                <li><i class="fas fa-plus"></i> Receso adicional (3:30 p.m. a 4:00 p.m.)</li>
+                                <li><i class="fas fa-plus"></i> Taller rotativo (arte, ciencia, música y más) (4:00 p.m. a 5:00 p.m.)</li>
+                                <li><i class="fas fa-plus"></i> Merienda ligera (5:00 p.m. a 5:30 p.m.)</li>
+                                <li><i class="fas fa-plus"></i> Actividades lúdicas supervisada (5:30 p.m. a 8:00 pm)</li>
+                            </ul>
+                            <div class="modalidad-whatsapp-btn">
+                                <a href="https://wa.me/523316906553?text=Vengo%20de%20la%20pagina%20web%20y%20me%20interesa%20el%20servicio%20de%20preescolar%20con%20la%20modalidad%203" target="_blank" class="whatsapp-btn modalidad-btn">
+                                    <i class="fab fa-whatsapp"></i> Contactar Modalidad 3
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
-            <!-- Sección Horarios -->
+            </section>
+
+            <!-- ===================== SECCIÓN PLANTELES ===================== -->
             <section class="horarios-section">
                 <h1 class="qs-title-guarderia-horarios">Contamos con preescolar en los siguientes planteles:</h1>
                 <div class="horarios-content">
+                    
                     <!-- Plantel El Zapote -->
                     <div class="plantel-item">
                         <div class="horarios-image">
@@ -436,64 +457,59 @@
                             </a>
                         </div>
                     </div>
-
+                </div>
             </section>
         </div>
-</section>
+    </main>
 
-        <!-- Navegación entre servicios -->
-        <section class="navigation-section">
-            <div class="navigation-container">
-                <!-- Navegación para desktop -->
-                <div class="desktop-nav">
-                    <a href="guarderia.php" class="nav-arrow nav-arrow-left">
+    <!-- ===================== NAVEGACIÓN ENTRE SERVICIOS ===================== -->
+    <section class="navigation-section">
+        <div class="navigation-container">
+            
+            <!-- Navegación para desktop -->
+            <div class="desktop-nav">
+                <a href="guarderia.php" class="nav-arrow nav-arrow-left">
+                    <i class="fas fa-chevron-left"></i>
+                    <span>Guardería</span>
+                </a>
+                <div class="nav-center">
+                    <span class="nav-current">Preescolar</span>
+                </div>
+                <a href="primaria.php" class="nav-arrow nav-arrow-right">
+                    <span>Primaria</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            
+            <!-- Navegación para mobile -->
+            <div class="mobile-nav">
+                <div class="mobile-nav-buttons">
+                    <a href="guarderia.php" class="nav-arrow nav-arrow-mobile">
                         <i class="fas fa-chevron-left"></i>
                         <span>Guardería</span>
                     </a>
-                    <div class="nav-center">
-                        <span class="nav-current">Preescolar</span>
-                    </div>
-                    <a href="primaria.php" class="nav-arrow nav-arrow-right">
+                    <a href="primaria.php" class="nav-arrow nav-arrow-mobile">
                         <span>Primaria</span>
                         <i class="fas fa-chevron-right"></i>
                     </a>
                 </div>
-                
-                <!-- Navegación para mobile -->
-                <div class="mobile-nav">
-                    <div class="mobile-nav-buttons">
-                        <a href="guarderia.php" class="nav-arrow nav-arrow-mobile">
-                            <i class="fas fa-chevron-left"></i>
-                            <span>Guardería</span>
-                        </a>
-                        <a href="primaria.php" class="nav-arrow nav-arrow-mobile">
-                            <span>Primaria</span>
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
-                    </div>
-                </div>
             </div>
-        </section>
-
-
-        <!-- Elementos decorativos -->
-        <div class="decorative-elements">
-            <div class="decorative-shape shape-1"></div>
-            <div class="decorative-shape shape-2"></div>
-            <div class="decorative-shape shape-3"></div>
-            <div class="decorative-shape shape-4"></div>
         </div>
-    </main>
+    </section>
 
+    <!-- ===================== CENEFAS DIVISORIAS ===================== -->
     <div class="cenefa-divider">
-      <img src="assets/img/cenefarombos.png" alt="Cenefa divisoria" class="cenefa-img-divider">
+        <img src="assets/img/cenefarombos.png" alt="Cenefa divisoria" class="cenefa-img-divider">
     </div>
     <div class="cenefa-divider">
-      <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider2">
+        <img src="assets/img/cenefarombosmobile.png" alt="Cenefa divisoria" class="cenefa-img-divider2">
     </div>
+
+    <!-- ===================== COMPONENTES INCLUIDOS ===================== -->
     <?php include 'components/footer.php'; ?>
     <?php include 'components/menu.php'; ?>
 
-     <script src="assets/js/main.js"></script>
-  </body>
+    <!-- ===================== JAVASCRIPT ===================== -->
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
