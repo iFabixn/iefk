@@ -17,6 +17,32 @@
     <?php include 'components/header.php'; ?>
 
     <!-- ===================== ESTANCIA INFANTIL ===================== -->
+      <!-- Decorative Shapes -->
+            <div class="shape shape-1" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
+            </div>
+            <div class="shape shape-2" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
+            </div>
+           
+            <div class="shape shape-4" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
+            </div>
+         
+             <!-- Decorative Shapes -->
+            <div class="shape shape-6" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 6">
+            </div>
+            <div class="shape shape-7" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 7">
+            </div>
+            <div class="shape shape-8" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 8">
+            </div>
+            <div class="shape shape-9" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 9">
+            </div>
+            
     <main class="guarderia-main">
         <!-- Título principal -->
         <section class="guarderia-header">

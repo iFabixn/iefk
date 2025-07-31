@@ -12,7 +12,22 @@
   </head>
   <body>
     <?php include 'components/header.php'; ?>
-
+<!-- Decorative Shapes -->
+            <div class="shape shapeb-1" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
+            </div>
+            <div class="shape shapeb-2" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
+            </div>
+            <div class="shape shapeb-3" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 3">
+            </div>
+            <div class="shape shapeb-4" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
+            </div>
+            <div class="shape shapeb-5" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 5">
+            </div>
    <main class="main-content">
       <h1 class="qs-title">Bolsa de Trabajo</h1>
       <div class="qs-row">

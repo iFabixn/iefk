@@ -1422,3 +1422,124 @@ a.footer__link:hover{
   width: 100%;
 }
 
+
+
+/* ===================== DECORATIVE SHAPES ===================== */
+.shape {
+  position: absolute;
+  z-index: 5;
+  transition: all 0.3s ease;
+}
+
+.shape:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.shape img {
+  width: 80px;
+  height: auto;
+  pointer-events: none;
+}
+
+/* Posiciones iniciales aleatorias para cada shape */
+.shape-1 {
+  top: 20%;
+  left: 11%;
+}
+.shape-1 img{
+  width: 100px;
+}
+
+.shape-2 {
+  top: 20%;
+  right: 21%;
+  transform: scaleX(-1);
+}
+.shape-2 img{
+  width: 100px;
+}
+
+.shape-3 {
+  top: 257%;
+  right: 1%;
+  transform: scaleX(-1);
+}
+.shape-3 img{
+  width: 100px;
+}
+
+
+.shape-4 {
+  top: 152%;
+  right: 11%;
+  transform: scaleX(-1);
+}
+
+.shape-4 img{
+  width: 100px;
+}
+
+
+.shape-5 {
+  top: 198%;
+  right: 2%;
+  transform: scaleX(-1);
+}
+
+.shape-5 img{
+  width: 100px;
+}   
+
+.shape-6 {
+  top: 159%;
+  left: 19%;
+  transform: scaleX(-1);
+}
+.shape-6 img{
+  width: 100px;
+}
+
+.shape-7 {
+  top: 80%;
+  right: 88%;
+}
+.shape-7 img{
+  width: 100px;
+}
+
+.shape-8 {
+  top: 163%;
+  left: 6%;
+}
+.shape-8 img{
+  width: 200px;
+}
+
+
+.shape-9 {
+  top: 78%;
+  right: 5%;
+  transform: scaleX(-1);
+}
+
+.shape-9 img{
+  width: 100px;
+}
+
+.shape-10 {
+  top: 255%;
+  left: 13%;
+}
+.shape-10 img{
+  width: 150px;
+}
+
+
+
+/* Ocultar shapes en pantallas menores a 1200px */
+@media screen and (max-width: 1199px) {
+  .shape {
+    display: none;
+  }
+}

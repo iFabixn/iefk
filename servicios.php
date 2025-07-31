@@ -59,7 +59,7 @@ $customLogo = "assets/img/logo frida kahlo blanco horizontal.png";
             <!-- Card: Licenciatura -->
             <div class="card-right fade-in-up" style="animation-delay:0.7s">
                 <div class="card-inner">
-                    <a href="licenciatura.php">
+                    <a href="#">
                         <img src="assets/img/licenciatura.png" alt="Licenciatura">
                     </a>
                 </div>
@@ -94,6 +94,22 @@ $customLogo = "assets/img/logo frida kahlo blanco horizontal.png";
             </div>
         </div>
     </div>
+    <!-- Decorative Shapes -->
+            <div class="shape shape-1" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
+            </div>
+            <div class="shape shape-2" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
+            </div>
+            <div class="shape shape-3" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 3">
+            </div>
+            <div class="shape shape-4" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
+            </div>
+            <div class="shape shape-5" draggable="true">
+                <img src="assets/img/cloud1.png" alt="Cloud Shape 5">
+            </div>
     <div class="cenefa-divider">
       <img src="assets/img/cenefarombos.png" alt="Cenefa divisoria" class="cenefa-img-divider">
     </div>

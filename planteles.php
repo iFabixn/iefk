@@ -143,8 +143,9 @@
                             <h3 class="plantel-subtitle">Servicios que ofrecemos</h3>
                             <div class="services-grid">
                                 <div class="service-item">
-                                    <img src="assets/img/guarderiarosa.png" alt="Guardería" class="service-icon">
-                                    <span class="service-name">Guardería Especializada</span>
+                                  <a href="guarderia.php"><img src="assets/img/guarderiarosa.png" alt="Guardería" class="service-icon"></a>
+                                    <span class="service-name">Guardería</span>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -209,8 +210,10 @@
                             <h3 class="plantel-subtitle">Servicios que ofrecemos</h3>
                             <div class="services-grid">
                                 <div class="service-item">
-                                    <img src="assets/img/guarderiarosa.png" alt="Guardería" class="service-icon">
-                                    <span class="service-name">Guardería Especializada</span>
+                                    <a href="guarderia.php">
+                                        <img src="assets/img/guarderiarosa.png" alt="Guardería" class="service-icon"></a>
+                                        <span class="service-name">Guardería</span>
+                                    
                                 </div>
                             </div>
                         </div>

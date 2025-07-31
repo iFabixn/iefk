@@ -1271,3 +1271,75 @@ a.footer__link:hover{
   animation: fadeInCenefa2 1s ease forwards;
   animation-delay: 0.9s;
 }
+
+/* ===================== DECORATIVE SHAPES ===================== */
+.shape {
+  position: absolute;
+  z-index: 5;
+  transition: all 0.3s ease;
+}
+
+.shape:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.shape img {
+  width: 80px;
+  height: auto;
+  pointer-events: none;
+}
+
+/* Posiciones iniciales aleatorias para cada shape */
+.shape-1 {
+  top: 34%;
+  left: 4%;
+  transform: scalex(-1);
+}
+.shape-1 img{
+  width: 100px;
+}
+
+.shape-2 {
+  top: 32%;
+  right: 3%;
+}
+.shape-2 img{
+  width: 100px;
+}
+
+.shape-3 {
+  top: 70%;
+  left: 8%;
+}
+.shape-3 img{
+  width: 200px;
+}
+
+
+.shape-4 {
+  top: 72%;
+  right: 5%;
+  transform: scaleX(-1);
+}
+
+.shape-4 img{
+  width: 100px;
+}
+
+
+.shape-5 {
+  top: 75%;
+  left: 72%;
+}
+
+.shape-5 img{
+  width: 200px;
+}
+
+/* Ocultar shapes en pantallas menores a 1200px */
+@media screen and (max-width: 1199px) {
+  .shape {
+    display: none;
+  }
+}
