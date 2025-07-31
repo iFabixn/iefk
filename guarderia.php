@@ -18,28 +18,28 @@
 
     <!-- ===================== ESTANCIA INFANTIL ===================== -->
       <!-- Decorative Shapes -->
-            <div class="shape shape-1" draggable="true">
+            <div class="shape shapeg-1" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
             </div>
-            <div class="shape shape-2" draggable="true">
+            <div class="shape shapeg-2" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
             </div>
            
-            <div class="shape shape-4" draggable="true">
+            <div class="shape shapeg-4" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
             </div>
          
              <!-- Decorative Shapes -->
-            <div class="shape shape-6" draggable="true">
+            <div class="shape shapeg-6" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 6">
             </div>
-            <div class="shape shape-7" draggable="true">
+            <div class="shape shapeg-7" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 7">
             </div>
-            <div class="shape shape-8" draggable="true">
+            <div class="shape shapeg-8" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 8">
             </div>
-            <div class="shape shape-9" draggable="true">
+            <div class="shape shapeg-9" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 9">
             </div>
             
@@ -270,7 +270,39 @@
             <div class="decorative-shape shape-4"></div>
         </div>
     </main>
-
+ <!-- Navegación entre servicios -->
+        <section class="navigation-section">
+            <div class="navigation-container">
+                <!-- Navegación para desktop -->
+                <div class="desktop-nav">
+                    <a href="primaria.php" class="nav-arrow nav-arrow-left">
+                        <i class="fas fa-chevron-left"></i>
+                        <span>Primaria</span>
+                    </a>
+                    <div class="nav-center">
+                        <span class="nav-current">Guardería</span>
+                    </div>
+                    <a href="preescolar.php" class="nav-arrow nav-arrow-right">
+                        <span>Preescolar</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Navegación para mobile -->
+                <div class="mobile-nav">
+                    <div class="mobile-nav-buttons">
+                        <a href="primaria.php" class="nav-arrow nav-arrow-mobile">
+                            <i class="fas fa-chevron-left"></i>
+                            <span>Primaria</span>
+                        </a>
+                        <a href="preescolar.php" class="nav-arrow nav-arrow-mobile">
+                            <span>Preescolar</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     <div class="cenefa-divider">
       <img src="assets/img/cenefarombos.png" alt="Cenefa divisoria" class="cenefa-img-divider">
     </div>

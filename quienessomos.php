@@ -16,34 +16,34 @@ $customLogo = "assets/img/logorosa.png";
 ?>
     <?php include 'components/header.php'; ?>
      <!-- Decorative Shapes -->
-            <div class="shape shape-1" draggable="true">
+            <div class="shape shapeq-1" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
             </div>
-            <div class="shape shape-2" draggable="true">
+            <div class="shape shapeq-2" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
             </div>
-            <div class="shape shape-3" draggable="true">
+            <div class="shape shapeq-3" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 3">
             </div>
-            <div class="shape shape-4" draggable="true">
+            <div class="shape shapeq-4" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
             </div>
-            <div class="shape shape-5" draggable="true">
+            <div class="shape shapeq-5" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 5">
             </div>
-            <div class="shape shape-6" draggable="true">
+            <div class="shape shapeq-6" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 6">
             </div>
-            <div class="shape shape-7" draggable="true">
+            <div class="shape shapeq-7" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 7">
             </div>
-            <div class="shape shape-8" draggable="true">
+            <div class="shape shapeq-8" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 8">
             </div>
-            <div class="shape shape-9" draggable="true">
+            <div class="shape shapeq-9" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 9">
             </div>
-            <div class="shape shape-10" draggable="true">
+            <div class="shape shapeq-10" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 10">
             </div>
     <main class="main-content">

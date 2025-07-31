@@ -52,8 +52,18 @@ span{
   width: 100px;
 }
 
+.shape-3 {
+  top: 435%;
+  right: 71%;
+  transform: scaleX(-1);
+}
+
+.shape-3 img{
+  width: 100px;
+}
+
 .shape-4 {
-  top: 152%;
+  top: 161%;
   right: 11%;
   transform: scaleX(-1);
 }
@@ -61,6 +71,17 @@ span{
 .shape-4 img{
   width: 100px;
 }
+
+.shape-5 {
+  top: 470%;
+  right: 11%;
+  transform: scaleX(-1);
+}
+
+.shape-5 img{
+  width: 100px;
+}
+
 
 .shape-6 {
   top: 159%;
@@ -98,10 +119,391 @@ span{
   width: 100px;
 }
 
+.shape-10 {
+  top: 436%;
+  left: 6%;
+}
+.shape-10 img{
+  width: 200px;
+}
 
 /* Ocultar shapes en pantallas menores a 1200px */
 @media screen and (max-width: 1199px) {
   .shape {
     display: none;
   }
+}
+
+/* ===================== MODALIDADES SECTION ===================== */
+.modalidades-section {
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+
+.modalidades-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.modalidad-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #fbbe5e;
+}
+
+/* Modalidad 1 - Rojo */
+.modalidad-card:nth-child(1) {
+  border: 2px solid #E5003C;
+}
+
+.modalidad-card:nth-child(1) .modalidad-title {
+  color: #E5003C;
+}
+
+.modalidad-card:nth-child(1) .modalidad-header {
+  border-bottom: 2px solid #E5003C;
+}
+
+.modalidad-card:nth-child(1) .modalidad-section-title {
+  color: #E5003C;
+  border-left: 4px solid #E5003C;
+}
+
+.modalidad-card:nth-child(1) .modalidad-list li i {
+  color: #E5003C;
+}
+
+.modalidad-card:nth-child(1) .modalidad-whatsapp-btn {
+  border-top: 1px solid #E5003C;
+}
+
+/* Modalidad 2 - Azul */
+.modalidad-card:nth-child(2) {
+  border: 2px solid #036E9A;
+}
+
+.modalidad-card:nth-child(2) .modalidad-title {
+  color: #036E9A;
+}
+
+.modalidad-card:nth-child(2) .modalidad-header {
+  border-bottom: 2px solid #036E9A;
+}
+
+.modalidad-card:nth-child(2) .modalidad-section-title {
+  color: #036E9A;
+  border-left: 4px solid #036E9A;
+}
+
+.modalidad-card:nth-child(2) .modalidad-list li i {
+  color: #036E9A;
+}
+
+.modalidad-card:nth-child(2) .modalidad-whatsapp-btn {
+  border-top: 1px solid #036E9A;
+}
+
+/* Modalidad 3 - Naranja */
+.modalidad-card:nth-child(3) {
+  border: 2px solid #EB992D;
+}
+
+.modalidad-card:nth-child(3) .modalidad-title {
+  color: #EB992D;
+}
+
+.modalidad-card:nth-child(3) .modalidad-header {
+  border-bottom: 2px solid #EB992D;
+}
+
+.modalidad-card:nth-child(3) .modalidad-section-title {
+  color: #EB992D;
+  border-left: 4px solid #EB992D;
+}
+
+.modalidad-card:nth-child(3) .modalidad-list li i {
+  color: #EB992D;
+}
+
+.modalidad-card:nth-child(3) .modalidad-whatsapp-btn {
+  border-top: 1px solid #EB992D;
+}
+
+.modalidad-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.modalidad-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.modalidad-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.modalidad-horario {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+.modalidad-subtitle {
+  font-size: 0.95rem;
+  color: #666;
+  font-style: italic;
+}
+
+.modalidad-content {
+  padding: 0;
+}
+
+.modalidad-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem 0;
+  padding-left: 0.5rem;
+}
+
+.modalidad-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modalidad-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+.modalidad-list li i {
+  margin-right: 0.8rem;
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+/* Responsive para modalidades */
+@media (max-width: 768px) {
+  .modalidades-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  .modalidad-card {
+    padding: 1.2rem;
+  }
+  
+  .modalidad-title {
+    font-size: 1.3rem;
+  }
+  
+  .modalidad-horario {
+    font-size: 1.1rem;
+  }
+  
+  .modalidad-list li {
+    font-size: 0.85rem;
+  }
+}
+
+/* ===================== BOTONES WHATSAPP MODALIDADES ===================== */
+.modalidad-whatsapp-btn {
+  margin-top: 1.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.modalidad-btn {
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.modalidad-btn:hover {
+  transform: translateY(-2px);
+  color: white;
+  text-decoration: none;
+}
+
+.modalidad-btn i {
+  font-size: 1.1rem;
+}
+
+/* Botón Modalidad 1 - Rojo */
+.modalidad-card:nth-child(1) .modalidad-btn {
+  background: linear-gradient(135deg, #E5003C, #B8002F);
+  box-shadow: 0 4px 15px rgba(229, 0, 60, 0.3);
+}
+
+.modalidad-card:nth-child(1) .modalidad-btn:hover {
+  background: linear-gradient(135deg, #B8002F, #E5003C);
+  box-shadow: 0 6px 20px rgba(229, 0, 60, 0.4);
+}
+
+/* Botón Modalidad 2 - Azul */
+.modalidad-card:nth-child(2) .modalidad-btn {
+  background: linear-gradient(135deg, #036E9A, #025A7A);
+  box-shadow: 0 4px 15px rgba(3, 110, 154, 0.3);
+}
+
+.modalidad-card:nth-child(2) .modalidad-btn:hover {
+  background: linear-gradient(135deg, #025A7A, #036E9A);
+  box-shadow: 0 6px 20px rgba(3, 110, 154, 0.4);
+}
+
+/* Botón Modalidad 3 - Naranja */
+.modalidad-card:nth-child(3) .modalidad-btn {
+  background: linear-gradient(135deg, #EB992D, #C7801F);
+  box-shadow: 0 4px 15px rgba(235, 153, 45, 0.3);
+}
+
+.modalidad-card:nth-child(3) .modalidad-btn:hover {
+  background: linear-gradient(135deg, #C7801F, #EB992D);
+  box-shadow: 0 6px 20px rgba(235, 153, 45, 0.4);
+}
+
+.qs-ofertas-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem!important;
+}
+
+/* ===================== NAVIGATION SECTION ===================== */
+.navigation-section {
+    padding: 3rem 0;
+    margin: 2rem 0;
+    border-radius: 20px;
+}
+
+.navigation-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-center {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-current {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E91E63;
+    background: linear-gradient(135deg, #ff9ca7, #fb5c76);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 2px 4px rgba(233, 30, 99, 0.2);
+}
+
+.nav-arrow {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #ff9ca7, #fb5c76);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(251, 92, 118, 0.3);
+    border: none;
+    cursor: pointer;
+}
+
+.nav-arrow:hover {
+    background: linear-gradient(135deg, #fb5c76, #ff9ca7);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(251, 92, 118, 0.4);
+    color: white;
+    text-decoration: none;
+}
+
+.nav-arrow i {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.nav-arrow-left:hover i {
+    transform: translateX(-3px);
+}
+
+.nav-arrow-right:hover i {
+    transform: translateX(3px);
+}
+
+.mobile-nav-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.nav-arrow-mobile {
+    justify-content: center;
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+    
+    .mobile-nav {
+        display: flex;
+    }
+    
+    .navigation-section {
+        padding: 2rem 0;
+        margin: 1rem 0;
+    }
+    
+    .nav-arrow {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
 }

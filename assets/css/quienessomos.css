@@ -1443,95 +1443,95 @@ a.footer__link:hover{
 }
 
 /* Posiciones iniciales aleatorias para cada shape */
-.shape-1 {
-  top: 20%;
-  left: 11%;
+.shapeq-1 {
+  top: 24%;
+  left: 14%;
 }
-.shape-1 img{
+.shapeq-1 img{
   width: 100px;
 }
 
-.shape-2 {
+.shapeq-2 {
   top: 20%;
-  right: 21%;
+  right: 16%;
   transform: scaleX(-1);
 }
-.shape-2 img{
+.shapeq-2 img{
   width: 100px;
 }
 
-.shape-3 {
-  top: 257%;
-  right: 1%;
+.shapeq-3 {
+  top: 280%;
+  right: 4%;
   transform: scaleX(-1);
 }
-.shape-3 img{
+.shapeq-3 img{
   width: 100px;
 }
 
 
-.shape-4 {
-  top: 152%;
+.shapeq-4 {
+  top: 164%;
   right: 11%;
   transform: scaleX(-1);
 }
 
-.shape-4 img{
+.shapeq-4 img{
   width: 100px;
 }
 
 
-.shape-5 {
-  top: 198%;
+.shapeq-5 {
+  top: 218%;
   right: 2%;
   transform: scaleX(-1);
 }
 
-.shape-5 img{
+.shapeq-5 img{
   width: 100px;
 }   
 
-.shape-6 {
+.shapeq-6 {
   top: 159%;
   left: 19%;
   transform: scaleX(-1);
 }
-.shape-6 img{
+.shapeq-6 img{
   width: 100px;
 }
 
-.shape-7 {
-  top: 80%;
+.shapeq-7 {
+  top: 91%;
   right: 88%;
 }
-.shape-7 img{
+.shapeq-7 img{
   width: 100px;
 }
 
-.shape-8 {
+.shapeq-8 {
   top: 163%;
   left: 6%;
 }
-.shape-8 img{
+.shapeq-8 img{
   width: 200px;
 }
 
 
-.shape-9 {
-  top: 78%;
+.shapeq-9 {
+  top: 86%;
   right: 5%;
   transform: scaleX(-1);
 }
 
-.shape-9 img{
+.shapeq-9 img{
   width: 100px;
 }
 
-.shape-10 {
-  top: 255%;
+.shapeq-10 {
+  top: 280%;
   left: 13%;
 }
-.shape-10 img{
+.shapeq-10 img{
   width: 150px;
 }
 

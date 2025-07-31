@@ -95,19 +95,19 @@ $customLogo = "assets/img/logo frida kahlo blanco horizontal.png";
         </div>
     </div>
     <!-- Decorative Shapes -->
-            <div class="shape shape-1" draggable="true">
+            <div class="shape shapes-1" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
             </div>
-            <div class="shape shape-2" draggable="true">
+            <div class="shape shapes-2" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
             </div>
-            <div class="shape shape-3" draggable="true">
+            <div class="shape shapes-3" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 3">
             </div>
-            <div class="shape shape-4" draggable="true">
+            <div class="shape shapes-4" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
             </div>
-            <div class="shape shape-5" draggable="true">
+            <div class="shape shapes-5" draggable="true">
                 <img src="assets/img/cloud1.png" alt="Cloud Shape 5">
             </div>
     <div class="cenefa-divider">

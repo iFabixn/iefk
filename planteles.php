@@ -264,13 +264,13 @@
                     <div class="plantel-gallery-col">
                         <div class="gallery-container">
                             <div class="gallery-main">
-                                <img src="assets/img/.png" alt="Plantel Colinas de Tonalá" class="gallery-main-img" id="colinasMainImg">
+                                <img src="assets/img/instalacionescolinas.png" alt="Plantel Colinas de Tonalá" class="gallery-main-img" id="colinasMainImg">
                             </div>
                             <div class="gallery-thumbs">
-                                <img src="assets/img/.png" alt="Exterior" class="gallery-thumb active" onclick="changeImage('colinasMainImg', this.src)">
-                                <img src="assets/img/.png" alt="Interior" class="gallery-thumb" onclick="changeImage('colinasMainImg', this.src)">
-                                <img src="assets/img/.png" alt="Área de juegos" class="gallery-thumb" onclick="changeImage('colinasMainImg', this.src)">
-                                <img src="assets/img/.png" alt="Jardín" class="gallery-thumb" onclick="changeImage('colinasMainImg', this.src)">
+                                <img src="assets/img/instalacionescolinas.png" alt="Exterior" class="gallery-thumb active" onclick="changeImage('colinasMainImg', this.src)">
+                                <img src="assets/img/instalacionescolinas2.jpg" alt="Interior" class="gallery-thumb" onclick="changeImage('colinasMainImg', this.src)">
+                                <img src="assets/img/instalacionescolinas3.jpg" alt="Área de juegos" class="gallery-thumb" onclick="changeImage('colinasMainImg', this.src)">
+                                <img src="assets/img/instalacionescolinas4.jpg" alt="Jardín" class="gallery-thumb" onclick="changeImage('colinasMainImg', this.src)">
                             </div>
                         </div>
                     </div>
