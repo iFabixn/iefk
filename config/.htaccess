@@ -1,0 +1,11 @@
+# 🔒 Denegar acceso a archivos de configuración
+<Files "*">
+    Order deny,allow
+    Deny from all
+</Files>
+
+# Solo permitir inclusión desde PHP, no acceso directo
+<FilesMatch "\.(php|inc|conf)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>

@@ -6,46 +6,14 @@
     <link rel="stylesheet" href="assets/css/quienessomos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="icon" type="image/png" href="assets/img/logo sin letras.png">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   
   <body>
-
     <?php
 $customLogo = "assets/img/logorosa.png";
 ?>
     <?php include 'components/header.php'; ?>
-     <!-- Decorative Shapes -->
-            <div class="shape shapeq-1" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
-            </div>
-            <div class="shape shapeq-2" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
-            </div>
-            <div class="shape shapeq-3" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 3">
-            </div>
-            <div class="shape shapeq-4" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
-            </div>
-            <div class="shape shapeq-5" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 5">
-            </div>
-            <div class="shape shapeq-6" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 6">
-            </div>
-            <div class="shape shapeq-7" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 7">
-            </div>
-            <div class="shape shapeq-8" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 8">
-            </div>
-            <div class="shape shapeq-9" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 9">
-            </div>
-            <div class="shape shapeq-10" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 10">
-            </div>
     <main class="main-content">
       <h1 class="qs-title">¿Quiénes somos?</h1>
       <div class="qs-row">
@@ -144,7 +112,7 @@ $customLogo = "assets/img/logorosa.png";
           <h3 class="qs-card-title">Primaria</h3>
         </div>
       </a>
-      <a href="#">
+      <a href="licenciatura.php">
         <div class="qs-ofertas-card">
           <div class="qs-card-image">
             <img src="assets/img/buho blanco.png" alt="Licenciatura">

@@ -1,0 +1,3 @@
+# 🔒 Proteger secciones de usuarios
+Options -Indexes
+DirectoryIndex ../../login.php

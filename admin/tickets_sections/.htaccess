@@ -1,0 +1,3 @@
+# 🔒 Proteger secciones de tickets
+Options -Indexes
+DirectoryIndex ../../login.php

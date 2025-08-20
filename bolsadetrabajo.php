@@ -8,26 +8,11 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="icon" type="image/png" href="assets/img/logo sin letras.png">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <?php include 'components/header.php'; ?>
-<!-- Decorative Shapes -->
-            <div class="shape shapeb-1" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
-            </div>
-            <div class="shape shapeb-2" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
-            </div>
-            <div class="shape shapeb-3" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 3">
-            </div>
-            <div class="shape shapeb-4" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
-            </div>
-            <div class="shape shapeb-5" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 5">
-            </div>
+
    <main class="main-content">
       <h1 class="qs-title">Bolsa de Trabajo</h1>
       <div class="qs-row">

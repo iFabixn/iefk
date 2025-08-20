@@ -75,34 +75,13 @@ $customLogo = "assets/img/logo frida kahlo blanco horizontal.png";
             <h2 class="noticias-title fade-in-up" style="animation-delay:1s">Noticias</h2>
             <div class="noticias-row fade-in-up" style="animation-delay:1.1s">
                 <!-- Carrusel de fotos -->
-                        <div class="carousel-container">
-                            <div class="carousel-wrapper">
-                                <div class="carousel-track" id="carouselTrack">
-                                    <div class="carousel-slide active">
-                                        <img src="assets/img/remodelacion1.png" alt="Actividad 1" class="carousel-img">
-                                    </div>
-                                    <div class="carousel-slide">
-                                        <img src="assets/img/remodelacion2.png" alt="Actividad 2" class="carousel-img">
-                                    </div>
-                                    <div class="carousel-slide">
-                                        <img src="assets/img/remodelacion3.png" alt="Actividad 3" class="carousel-img">
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!-- Controles del carrusel -->
-                            <button class="carousel-btn carousel-btn-prev" id="prevBtn">
-                                <i class="fas fa-chevron-left"></i>
-                            </button>
-                            <button class="carousel-btn carousel-btn-next" id="nextBtn">
-                                <i class="fas fa-chevron-right"></i>
-                            </button>
-                            
-                            <!-- Indicadores del carrusel -->
-                            <div class="carousel-indicators" id="carouselIndicators">
-                                <!-- Los indicadores se generarán dinámicamente con JavaScript -->
-                            </div>
-                        </div>
+                <div class="noticias-carrusel fade-in-up" style="animation-delay:1.2s">
+                    <span class="carrusel-arrow carrusel-arrow-left">&#10094;</span>
+                    <div class="carrusel-rect">
+                        <img src="" alt="Foto carrusel" class="carrusel-img">
+                    </div>
+                    <span class="carrusel-arrow carrusel-arrow-right">&#10095;</span>
+                </div>
                 <!-- Información de la noticia -->
                 <div class="noticias-info fade-in-up" style="animation-delay:1.3s">
                     <h3 class="noticia-titulo">¡Comenzamos las remodelaciones para recibir el nuevo ciclo escolar!</h3>

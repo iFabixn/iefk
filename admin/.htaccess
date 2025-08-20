@@ -1,0 +1,41 @@
+# 🔒 PROTECCIÓN DEL DIRECTORIO ADMIN
+
+# Deshabilitar listado de directorios
+Options -Indexes
+
+# 🌐 URLs AMIGABLES - DESHABILITADO TEMPORALMENTE para evitar conflictos
+# RewriteEngine On
+
+# Permitir acceso directo a archivos PHP (sin redirección)
+# Esto evita problemas con parámetros GET como ?section=registrar
+
+# Bloquear acceso a archivos sensibles
+<FilesMatch "\.(sql|log|txt|md|conf|inc)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+# Proteger archivos de configuración específicos
+<Files "validar_sesion.php">
+    Order deny,allow
+    Deny from all
+</Files>
+
+<Files "smtp_config.php">
+    Order deny,allow
+    Deny from all
+</Files>
+
+<Files "mail_config.php">
+    Order deny,allow
+    Deny from all
+</Files>
+
+# Redirigir acceso directo al directorio admin al login
+DirectoryIndex login.php
+
+# Bloquear acceso a archivos de backup y temporales
+<FilesMatch "\.(bak|backup|old|tmp|temp|~)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>

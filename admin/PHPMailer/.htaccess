@@ -1,0 +1,14 @@
+# 🔒 Proteger librería PHPMailer
+Options -Indexes
+
+# Denegar acceso directo a todos los archivos
+<Files "*">
+    Order deny,allow
+    Deny from all
+</Files>
+
+# Permitir solo inclusión desde PHP (no acceso web directo)
+<FilesMatch "\.php$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>

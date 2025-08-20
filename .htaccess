@@ -1,0 +1,14 @@
+# 🌐 URLs AMIGABLES PARA IEFK - TEMPORALMENTE DESHABILITADO
+# RewriteEngine On
+
+# ⚠️ TODAS las reglas de URL amigables están DESHABILITADAS para evitar conflictos
+# con el sistema admin que usa parámetros GET
+
+# Página de inicio por defecto
+DirectoryIndex index.php
+
+# Prevenir acceso directo a ciertos archivos
+<Files "db.php">
+    Order deny,allow
+    Deny from all
+</Files>

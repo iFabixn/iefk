@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/quienessomos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="icon" type="image/png" href="assets/img/logo sin letras.png">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   
   <body>
@@ -17,32 +17,6 @@
     <?php include 'components/header.php'; ?>
 
     <!-- ===================== ESTANCIA INFANTIL ===================== -->
-      <!-- Decorative Shapes -->
-            <div class="shape shapeg-1" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 1">
-            </div>
-            <div class="shape shapeg-2" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 2">
-            </div>
-           
-            <div class="shape shapeg-4" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 4">
-            </div>
-         
-             <!-- Decorative Shapes -->
-            <div class="shape shapeg-6" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 6">
-            </div>
-            <div class="shape shapeg-7" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 7">
-            </div>
-            <div class="shape shapeg-8" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 8">
-            </div>
-            <div class="shape shapeg-9" draggable="true">
-                <img src="assets/img/cloud1.png" alt="Cloud Shape 9">
-            </div>
-            
     <main class="guarderia-main">
         <!-- Título principal -->
         <section class="guarderia-header">
@@ -270,39 +244,7 @@
             <div class="decorative-shape shape-4"></div>
         </div>
     </main>
- <!-- Navegación entre servicios -->
-        <section class="navigation-section">
-            <div class="navigation-container">
-                <!-- Navegación para desktop -->
-                <div class="desktop-nav">
-                    <a href="primaria.php" class="nav-arrow nav-arrow-left">
-                        <i class="fas fa-chevron-left"></i>
-                        <span>Primaria</span>
-                    </a>
-                    <div class="nav-center">
-                        <span class="nav-current">Guardería</span>
-                    </div>
-                    <a href="preescolar.php" class="nav-arrow nav-arrow-right">
-                        <span>Preescolar</span>
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
-                </div>
-                
-                <!-- Navegación para mobile -->
-                <div class="mobile-nav">
-                    <div class="mobile-nav-buttons">
-                        <a href="primaria.php" class="nav-arrow nav-arrow-mobile">
-                            <i class="fas fa-chevron-left"></i>
-                            <span>Primaria</span>
-                        </a>
-                        <a href="preescolar.php" class="nav-arrow nav-arrow-mobile">
-                            <span>Preescolar</span>
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+
     <div class="cenefa-divider">
       <img src="assets/img/cenefarombos.png" alt="Cenefa divisoria" class="cenefa-img-divider">
     </div>

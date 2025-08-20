@@ -1,0 +1,9 @@
+# 🔒 Proteger secciones administrativas
+Options -Indexes
+DirectoryIndex ../login.php
+
+# Solo permitir acceso a archivos PHP desde sesión válida
+<FilesMatch "\.php$">
+    # Este .htaccess protege los archivos pero los deja accesibles para PHP
+    # La validación real se hace en cada archivo PHP individual
+</FilesMatch>
